@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC:400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Teko");
+@import url("https://fonts.googleapis.com/css?family=Oranienbaum");
+@import url("https://fonts.googleapis.com/css?family=Nixie+One|Oranienbaum");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+SC|Faster+One|Six+Caps|Wire+One");
+
+/* -------------------------------------------------- */
 
 * {
   box-sizing: border-box;
@@ -13,21 +20,31 @@ html {
 }
 
 body {
+  font-family: "Amatic SC";
   height: 100%;
   background: black;
 }
 
+h1 {
+   font-size: 4.8rem
+}
+
+
+h3 {
+  font-size: 4rem
+}
+
 /* header {
   background: black;
-  border-bottom: 1px solid rgb(120, 120, 120);
+  border-bottom: 2px solid white;
   display: flex;
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 2;
   width: 100%;
   justify-content: space-between;
   height: 10%;
-  box-shadow: 2px 2px 5px rgb(31, 31, 31);
+  
   padding: 10px;
 } */
 
@@ -42,29 +59,29 @@ footer {
 } */
 
 .main-headline {
-  font-size: 6rem;
+  font-family: "Wire One";
+  margin-top: -70px;
+  margin-bottom: 200px;
+  color: white;
+  font-size: 3rem;
+}
+
+.outerbrain-logo {
+  width: 420px;
 }
 
 /* --------------------------------------------------------------TEAM CONTAINER  */
 
 .team-page {
   color: white;
-  text-align: left;
-
+  /* text-align: left; */
 }
 
 /* --------------------------------------------------------------GUILT PAGE  */
 
 .guilt-text {
   color: white;
-
 }
-
-
-
-
-
-
 
 /* --------------------------------------------------------------SLIDESHOW - PhotoCarousel  */
 
@@ -79,22 +96,23 @@ footer {
 } */
 
 .each-slide > div {
+  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-size: cover;
-  height: 400px;
+  height: 500px;
   border-style: solid;
   border-width: 3px;
   border-color: white;
 }
-
 .each-slide2 > div {
+  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-size: cover;
-  height: 400px;
+  height: 500px;
   border-style: solid;
   border-width: 3px;
   border-color: white;
@@ -102,20 +120,22 @@ footer {
 
 /* --------------------------------------------------------------PARALAX  */
 
-
-body,html{margin:0;padding:0;}
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
 
 .wrapper {
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 2px;
-  
 }
 
 .section {
   position: relative;
-  height: 100%;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -132,45 +152,86 @@ body,html{margin:0;padding:0;}
   left: 0;
 
   transform: translateZ(-1px) scale(1.5);
-  background-size: 100%;
+  background-size: 290%;
   z-index: -1;
-  
-} 
+}
 
-  .static {
+.static {
+  font-size: 3rem;
   border-style: solid;
   border-width: 2px;
   background: black;
   height: 100px;
   margin-top: 30px;
-} 
-
+}
 
 .bg1::after {
-  /* height:67%; */
-  border-style: solid;
-  border-width: 2px;
-  background-image: url('https://i.imgur.com/TQN9oGq.jpg');
-} 
-
+  height: 120%;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  background-image: url("https://i.imgur.com/TQN9oGq.jpg");
+}
 .bg2::after {
-  /* height:67%; */
-  opacity: .5;
-  border-style: solid;
-  border-width: 2px;
-  background-image: url('https://i.imgur.com/TQN9oGq.jpg');
+  height: 100%;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  background-image: url("https://i.imgur.com/qo1z1LT.jpg");
 }
 
 .bg3::after {
-  /* height:67%; */
-  opacity: .5;
-  border-style: solid;
-  border-width: 2px;
-  background-image: url('https://i.imgur.com/TQN9oGq.jpg');
-} 
+  height: 120%;
+  opacity: 0.5;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  background-image: url("https://farm4.static.flickr.com/3245/2905276304_70f61b6814_b.jpg?w=1400");
+}
+
+.bg4::after {
+  height: 120%;
+  opacity: 0.5;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  background-image: url("https://i.imgur.com/TQN9oGq.jpg");
+}
+
+@media (min-width: 1024px) {
+  body {
+    margin-top: -50px 
+  }
+  h1 {
+    font-size: 6rem;
+  }
+  .outerbrain-logo {
+  width: 600px;
+  margin-bottom: -20px;
+  animation: pulse 1.5s infinite;
+  animation-timing-function: linear;
+}
+  .main-headline {
+    font-size: 6rem;
+    /* margin-bottom: -2px; */
+  }
+
+  .parallax::after {
+    background-size: 100%;
+  }
+
+  .static {
+    font-size: 3rem;
+  }
+}
 
 
-/* .bg1::after {
-height: 100%;
-background-image: url('https://i.imgur.com/xebPMY0.png');
-} */
+/* ---------------------------------------------- */
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
