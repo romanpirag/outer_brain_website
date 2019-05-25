@@ -4,6 +4,7 @@
 }
 
 html {
+  height: 100%;
   font-size: 16px;
 }
 
@@ -12,11 +13,11 @@ html {
 }
 
 body {
+  height: 100%;
   background: black;
-
 }
 
-header {
+/* header {
   background: black;
   border-bottom: 1px solid rgb(120, 120, 120);
   display: flex;
@@ -28,7 +29,7 @@ header {
   height: 10%;
   box-shadow: 2px 2px 5px rgb(31, 31, 31);
   padding: 10px;
-}
+} */
 
 footer {
   text-align: center;
@@ -78,11 +79,12 @@ body,html{margin:0;padding:0;}
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 2px;
+  
 }
 
 .section {
   position: relative;
-  height: 100vh;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -101,23 +103,30 @@ body,html{margin:0;padding:0;}
   transform: translateZ(-1px) scale(1.5);
   background-size: 100%;
   z-index: -1;
+  
 }
 
-.static {
+/* .static {
   background: blue;
   height: 100px;
   margin-top: 30px;
-  /* opacity: 0.5; */
-}
+} */
+
+/* .bg1::after {
+  height: 100%;
+  background-image: url('https://i.imgur.com/xebPMY0.png');
+} */
 
 .bg1::after {
-  background-image: url('https://storage.googleapis.com/webdesignledger.pub.network/LaT/edd/2016/02/dark-grunge-textures-4.jpg');
+  height: 100%;
+  background-image: url('https://i.imgur.com/TQN9oGq.jpg');
 }
 
 .bg2::after {
-  background-image: url('https://storage.googleapis.com/webdesignledger.pub.network/LaT/edd/2016/02/dark-grunge-textures-4.jpg');
+  background-image: url('https://i.imgur.com/TQN9oGq.jpg');
 }
 
 .bg3::after {
-  background-image: url('https://jooinn.com/images/grunge-texture-77.jpg');
+  background-image: url('https://i.imgur.com/TQN9oGq.jpg');
 }
+

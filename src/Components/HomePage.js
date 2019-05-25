@@ -11,18 +11,18 @@ function HomePage() {
           <h1 className="main-headline">Welcome to Outer Brain</h1>
         </section>
         <div>
-          <PhotoCarousel />
+          {/* <PhotoCarousel /> */}
         </div>
-        <section class="section static">
+        {/* <section class="section static">
           <h1>The Outer Brain Team</h1>
-        </section>
-        <section class="section parallax bg2">
+        </section> */}
+        <section className="section parallax bg2">
           <h1>Reviews</h1>
         </section>
-        <section class="section static">
+        {/* <section class="section static">
           <h1>MORE INFO</h1>
-        </section>
-        <section class="section parallax bg3">
+        </section> */}
+        <section className="section parallax bg3">
           <h1>MORE INFO</h1>
         </section>
       </main>
