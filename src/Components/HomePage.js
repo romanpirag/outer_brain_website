@@ -1,29 +1,47 @@
 import React from "react"
-import TeamContainer from "./TeamContainer"
-import PhotoCarousel from "./PhotoCarousel"
-
+import TeamPage from "./TeamPage"
+import OrganPage from "./OrganPage"
+import GuiltPage from "./GuiltPage"
+import ContactPage from "./ContactPage"
 
 function HomePage() {
   return (
     <div>
-      <main class="wrapper">
+      <main className="wrapper">
         <section className="section parallax bg1">
           <h1 className="main-headline">Welcome to Outer Brain</h1>
         </section>
-        <div>
-          {/* <PhotoCarousel /> */}
-        </div>
-        {/* <section class="section static">
-          <h1>The Outer Brain Team</h1>
-        </section> */}
-        <section className="section parallax bg2">
-          <h1>Reviews</h1>
+        <section class="section static">
+          <h1>GUILT</h1>
         </section>
-        {/* <section class="section static">
-          <h1>MORE INFO</h1>
-        </section> */}
+        <div>
+          <GuiltPage />
+        </div>
+        <section className="section parallax bg2">
+          <h2>[Guilt Content Goes Here]</h2>
+        </section>
+        <section class="section static">
+          <h1>ORGAN QUARTER</h1>
+        </section>
+        <div>
+          <OrganPage />
+        </div>
+        <section className="section parallax bg2">
+          <h2>[Organ Quarter Content Goes Here]</h2>
+        </section>
+        <section class="section static">
+          <h1>OUTER BRAIN TEAM</h1>
+        </section>
+        <section className="section parallax bg2">
+          <div>
+            <TeamPage />
+          </div>
+        </section>
+        <section class="section static">
+          <h1>CONTACT</h1>
+        </section>
         <section className="section parallax bg3">
-          <h1>MORE INFO</h1>
+          <ContactPage/>
         </section>
       </main>
     </div>
@@ -31,4 +49,3 @@ function HomePage() {
 }
 
 export default HomePage
-

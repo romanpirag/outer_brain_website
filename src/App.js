@@ -9,8 +9,7 @@ function App() {
 
       </header>
         <main className="main">
-          
-          {/* <HomePage/> */}
+          <HomePage/>
         </main>
         <footer>
           Outer Brain Studios 2019
