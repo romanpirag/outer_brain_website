@@ -19,16 +19,16 @@ const properties2 = {
 const PhotoCarousel2 = () => {
   return (
     <Slide {...properties2}>
-      <div className="each-slide2">
+      <div className="each-slide">
         <div style={{ backgroundImage: `url(${slideImages2[0]})` }} />
       </div>
-      <div className="each-slide2">
+      <div className="each-slide">
         <div style={{ backgroundImage: `url(${slideImages2[1]})` }} />
       </div>
-      <div className="each-slide2">
+      <div className="each-slide">
         <div style={{ backgroundImage: `url(${slideImages2[2]})` }} />
       </div>
-      <div className="each-slide2">
+      <div className="each-slide">
         <div style={{ backgroundImage: `url(${slideImages2[3]})` }} />
       </div>
     </Slide>

@@ -1,0 +1,22 @@
+import React from "react"
+
+function Welcome() {
+  return (
+    <div>
+      <section className="welcome-div">
+        <img
+          className="outerbrain-logo"
+          src="https://i.imgur.com/uiACHoF.png"
+          alt="Brain Logo"
+        />
+      </section>
+      <section>
+        <h1 className="welcome-to-outer-brain">
+          Welcome to Outer Brain Studios
+        </h1>
+      </section>
+    </div>
+  )
+}
+
+export default Welcome
