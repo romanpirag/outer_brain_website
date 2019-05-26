@@ -22,11 +22,13 @@ body {
 }
 
 h1 {
-  font-size: 4.8rem;
+  font-family: "Wire One";
+  font-size: 4.3rem;
 }
 
 h3 {
-  font-size: 4rem;
+  font-family: "Amatic SC";
+  font-size: 2rem;
 }
 
 p {
@@ -45,6 +47,7 @@ header {
   justify-content: space-between;
   height: 10%;
   padding: 10px;
+  box-shadow: 0px 10px 15px black;
 }
 
 footer {
@@ -70,6 +73,7 @@ footer {
   font-family: "Wire One";
   color: white;
   font-size: 3rem;
+  text-shadow: 5px 5px 8px black;
 }
 /* --------------------------------------------------------------GUILT PAGE  */
 
@@ -103,6 +107,15 @@ footer {
   height: 240px;
 }
 
+.guilt-gif {
+  margin-top: 50px;
+  width: 100%;
+  box-shadow: 2px 2px 5px rgb(31, 31, 31);
+  border-style: solid;
+  border-width: 2px;
+  color: aqua;
+}
+
 /* ----------------------------------------------------------------------ORGAN PAGE */
 
 .organ-div {
@@ -132,11 +145,23 @@ footer {
   border-bottom: 2px solid aqua;
 }
 
-/* --------------------------------------------------------------TEAM CONTAINER  */
+.itch {
+  display: none;
+}
+/* --------------------------------------------------------------TEAM PAGE  */
 
 .team-page {
+  margin-top: 100px;
   color: white;
   /* text-align: left; */
+}
+
+.team-container {
+  margin-top: 40px;
+}
+
+.team-member {
+  font-size: 1.5rem;
 }
 
 /* --------------------------------------------------------------SLIDESHOW - PhotoCarousel  */
@@ -199,13 +224,12 @@ html {
 }
 
 .static {
-  font-size: 3rem;
   border-bottom: 2px solid aqua;
   border-top: 2px solid aqua;
   border-color: aqua;
   color: white;
   background: black;
-  height: 50px;
+  height: 100px;
   margin-top: 30px;
 }
 
@@ -232,11 +256,10 @@ html {
 }
 
 .bg4::after {
-  height: 120%;
-  /* opacity: 0.5; */
+  height: 50%;
   border-bottom: 2px solid aqua;
   border-top: 2px solid aqua;
-  background-image: url("https://i.imgur.com/TQN9oGq.jpg");
+  background-image: url("https://i.imgur.com/9ljZyBt.jpg");
 }
 
 /* -----------------------------------------------------------------------------------------------MEDIA QUERY */
@@ -244,6 +267,9 @@ html {
 @media (min-width: 1024px) {
   h1 {
     font-size: 6rem;
+  }
+  h3 {
+    font-size: 4rem;
   }
 
   p {
@@ -256,6 +282,14 @@ html {
 
   .welcome-div {
     margin-top: 300px;
+  }
+
+  .guilt-gif {
+    margin-top: 90px;
+    width: 820px;
+    border-style: solid;
+    border-width: 2px;
+    color: aqua;
   }
 
   .outerbrain-logo {
@@ -310,7 +344,8 @@ html {
   }
 
   .static {
-    font-size: 3rem;
+    font-family: "Wire One";
+    font-size: 1.5rem;
   }
   .guilt-trailer {
     width: 840px;
@@ -329,6 +364,15 @@ html {
     margin-top: 30px;
     width: 840px;
     height: 480px;
+  }
+
+  .itch {
+    margin-top: 80px;
+    display: block;
+  }
+
+  .team-member {
+    font-size: 2rem;
   }
 }
 

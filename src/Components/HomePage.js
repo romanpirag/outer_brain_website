@@ -15,6 +15,10 @@ function HomePage() {
         <GuiltPage />
         <section className="section parallax bg3" />
         <OrganPage />
+        <section>
+          <TeamPage />
+        </section>
+        <section className="section parallax bg4" />
       </main>
     </div>
   )
