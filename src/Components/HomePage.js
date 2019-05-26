@@ -13,12 +13,11 @@ function HomePage() {
           <Welcome />
         </section>
         <GuiltPage />
-        <section className="section parallax bg3" />
+        <section className="section parallax organ-bkg" />
         <OrganPage />
-        <section>
+        <section className="section parallax bg4">
           <TeamPage />
         </section>
-        <section className="section parallax bg4" />
       </main>
     </div>
   )

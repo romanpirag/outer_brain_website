@@ -58,7 +58,7 @@ footer {
   text-align: center;
 }
 
-/* --------------------------------------------------------------WELECOM PAGE  */
+/* --------------------------------------------------------------WELCOME PAGE  */
 .welcome-div {
   margin-top: 80px;
 }
@@ -84,10 +84,10 @@ footer {
 
 .guilt-logo {
   width: 100%;
-  background: black;
   border-bottom: 2px solid aqua;
-  border-top: 2px solid aqua;
-  border-color: aqua;
+  /* background: black; */
+  /* border-top: 2px solid aqua;
+  border-color: aqua; */
 }
 
 .guilt-description {
@@ -103,6 +103,7 @@ footer {
 
 .guilt-trailer {
   margin-top: 50px;
+  margin-bottom: 50px;
   width: 100%;
   height: 240px;
 }
@@ -116,10 +117,15 @@ footer {
   color: aqua;
 }
 
+.itch {
+  margin-top: -100;
+  display: none;
+}
+
 /* ----------------------------------------------------------------------ORGAN PAGE */
 
 .organ-div {
-  margin-top: -600px;
+  margin-top: -500px;
 }
 
 .organ-trailer {
@@ -129,10 +135,11 @@ footer {
 }
 
 .organ-logo {
+  margin: 0;
   width: 100%;
-  background: black;
+  /* background: black;
+  border-top: 2px solid aqua; */
   border-bottom: 2px solid aqua;
-  border-top: 2px solid aqua;
   border-color: aqua;
 }
 
@@ -143,21 +150,19 @@ footer {
   color: white;
   padding: 10px;
   border-bottom: 2px solid aqua;
+  background: black;
 }
 
-.itch {
-  display: none;
-}
 /* --------------------------------------------------------------TEAM PAGE  */
 
 .team-page {
-  margin-top: 100px;
+  width: 100%;
+  margin-top: 1000px;
   color: white;
-  /* text-align: left; */
 }
 
 .team-container {
-  margin-top: 40px;
+  margin-top: 100px;
 }
 
 .team-member {
@@ -224,13 +229,13 @@ html {
 }
 
 .static {
+  height: 100px;
+  margin-top: 30px;
   border-bottom: 2px solid aqua;
   border-top: 2px solid aqua;
   border-color: aqua;
-  color: white;
   background: black;
-  height: 100px;
-  margin-top: 30px;
+  color: white;
 }
 
 .bg1::after {
@@ -247,19 +252,31 @@ html {
   background-image: url("https://i.imgur.com/9ljZyBt.jpg");
 }
 
-.bg3::after {
-  height: 120%;
-  /* opacity: 0.5; */
+.bg4::after {
+  margin-top: 500px;
+  height: 150%;
   border-bottom: 2px solid aqua;
   border-top: 2px solid aqua;
   background-image: url("https://i.imgur.com/9ljZyBt.jpg");
 }
 
-.bg4::after {
-  height: 50%;
+.guilt-bkg::after {
+  height: 70%;
   border-bottom: 2px solid aqua;
   border-top: 2px solid aqua;
-  background-image: url("https://i.imgur.com/9ljZyBt.jpg");
+  background-image: url("https://i.imgur.com/dZZIsym.jpg");
+}
+
+.organ-bkg::after {
+  margin-top: 700px;
+  height: 100%;
+  border-bottom: 2px solid aqua;
+  border-top: 2px solid aqua;
+  background-image: url("https://i.imgur.com/bsis7AA.jpg");
+}
+
+.lift-section {
+  margin-top: -720px;
 }
 
 /* -----------------------------------------------------------------------------------------------MEDIA QUERY */
@@ -340,16 +357,12 @@ html {
   }
 
   .parallax::after {
-    background-size: 100%;
+    background-size: 160%;
   }
 
   .static {
     font-family: "Wire One";
     font-size: 1.5rem;
-  }
-  .guilt-trailer {
-    width: 840px;
-    height: 480px;
   }
 
   .guilt-description {
@@ -358,6 +371,13 @@ html {
     color: white;
     margin-left: 12%;
     padding: 25px;
+  }
+
+  .guilt-trailer {
+    width: 840px;
+    height: 480px;
+    margin-top: 50px;
+    margin-bottom: -60px;
   }
 
   .organ-trailer {
@@ -373,6 +393,35 @@ html {
 
   .team-member {
     font-size: 2rem;
+  }
+
+  .guilt-bkg::after {
+    margin-top: -200px;
+    height: 200%;
+  }
+
+  .organ-bkg::after {
+    margin-top: 1450px;
+    height: 170%;
+  }
+
+  .organ-description {
+    border-bottom: none;
+    background: none;
+  }
+
+  .guilt-description {
+    background: none;
+    border-bottom: none;
+  }
+
+  .organ-div {
+    margin-top: -300px;
+  }
+
+  .team-page {
+    width: 100%;
+    margin-top: 1300px;
   }
 }
 

@@ -47,13 +47,13 @@ function OrganPage() {
           alt="Guilt Gif"
         />
       </section>
-      <section>
+      {/* <section>
         <img
           className="guilt-gif"
           src="https://ksr-ugc.imgix.net/assets/015/422/878/a912f22dd0c00d0547f761fa8a05548a_original.gif?ixlib=rb-2.0.0&w=680&fit=max&v=1486468974&auto=format&gif-q=50&q=92&s=92c8dd8abc120c44b9f532a12d54ef58"
           alt="Guilt Gif"
         />
-      </section>
+      </section> */}
       {/* <section>
           <PhotoCarousel2/>
       </section> */}
