@@ -15,6 +15,9 @@ function Welcome() {
           Welcome to Outer Brain Studios
         </h1>
       </section>
+      {/* <section class="titlecard">
+        <h1>GAME PROJECTS</h1>
+      </section> */}
     </div>
   )
 }

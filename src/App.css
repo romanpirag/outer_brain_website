@@ -4,7 +4,7 @@
 @import url("https://fonts.googleapis.com/css?family=Nixie+One|Oranienbaum");
 @import url("https://fonts.googleapis.com/css?family=Cormorant+SC|Faster+One|Six+Caps|Wire+One");
 
-/* ---------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------ */
 
 * {
   box-sizing: border-box;
@@ -15,7 +15,6 @@ html {
   height: 100%;
   font-size: 16px;
 }
-
 
 body {
   font-family: "Amatic SC";
@@ -40,7 +39,8 @@ p {
 
 header {
   background: black;
-  border-bottom: 2px solid aqua;
+  opacity: 0.8;
+  border-bottom: 2px solid gray;
   display: flex;
   position: fixed;
   top: 0;
@@ -52,26 +52,94 @@ header {
   box-shadow: 0px 10px 15px black;
 }
 
-footer {
-  text-align: center;
-}
-
 .App {
   text-align: center;
 }
 
+/* ------------------------------------------------------------------------------HEADER TOP LINKS  */
+
+.link-container {
+  margin-left: 6px;
+  margin-top: 8px;
+}
+
+.home-button,
+.link-button {
+  margin: 5px;
+  font-size: 1.2rem;
+  font-family: "Teko";
+  background-color: black;
+  color: white;
+  padding: 0.3em 0.7em;
+  width: 10px;
+  height: 40px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 2px;
+  color: beige;
+}
+
+.link-button:active {
+  background-color: aqua;
+  box-shadow: none;
+  top: 5px;
+  color: grey;
+}
+
+/* .copyright {
+  margin: 10px;
+  font-size: .8rem;
+  font-family: "Cormorant";
+  color: white;
+  margin-bottom: 5px;
+  bottom: 0;
+  z-index: 2;
+  position: fixed;
+}  */
+
+.right-side-links {
+  display: none;
+}
+
+.facebook-link {
+  margin: 5px;
+  font-size: 3rem;
+  z-index: 1;
+  color: beige;
+}
+
+.steam-link {
+  margin: 5px;
+  font-size: 3rem;
+  z-index: 1;
+  color: beige;
+}
+
+.facebook-link:hover,
+.steam-link:hover {
+  margin: 5px;
+  font-size: 3rem;
+  z-index: 1;
+  color: aqua;
+}
+
+
 /* --------------------------------------------------------------WELCOME PAGE  */
 .welcome-div {
-  margin-top: 80px;
+  margin-top: 0px;
 }
 
 .outerbrain-logo {
-  width: 420px;
+  width: 350px;
   animation: pulse 1.5s infinite;
   animation-timing-function: linear;
 }
 
 .welcome-to-outer-brain {
+  margin-top: 0px;
   font-family: "Wire One";
   color: white;
   font-size: 3rem;
@@ -86,7 +154,7 @@ footer {
 
 .guilt-logo {
   width: 100%;
-  border-bottom: 2px solid aqua;
+  border-bottom: 2px solid gray;
 }
 
 .guilt-description {
@@ -96,7 +164,7 @@ footer {
   color: white;
   margin-bottom: 10px;
   background: black;
-  border-bottom: 2px solid aqua;
+  border-bottom: 2px solid gray;
   padding: 10px;
 }
 
@@ -113,7 +181,14 @@ footer {
   box-shadow: 2px 2px 5px rgb(31, 31, 31);
   border-style: solid;
   border-width: 2px;
-  color: aqua;
+  color: gray;
+}
+
+.guilt-anchor {
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden;
 }
 
 .itch {
@@ -135,10 +210,11 @@ footer {
 }
 
 .organ-logo {
+  opacity: 0.9;
   margin: 0;
   width: 100%;
-  border-bottom: 2px solid aqua;
-  border-color: aqua;
+  border-bottom: 2px solid gray;
+  border-color: gray;
 }
 
 .organ-description {
@@ -147,7 +223,7 @@ footer {
   width: 100%;
   color: white;
   padding: 10px;
-  border-bottom: 2px solid aqua;
+  border-bottom: 2px solid gray;
   background: black;
 }
 
@@ -160,13 +236,20 @@ footer {
 
 .organ-ost {
   margin-top: 40px;
-  margin-bottom: -40px;
+  margin-bottom: 0px;
   width: 100%;
   height: 300px;
   box-shadow: 2px 2px 5px rgb(31, 31, 31);
   border-style: solid;
   border-width: 2px;
-  color: aqua;
+  color: gray;
+}
+
+.organ-anchor {
+  display: block;
+  position: relative;
+  top: -75px;
+  visibility: hidden;
 }
 
 /* --------------------------------------------------------------TEAM PAGE  */
@@ -183,6 +266,17 @@ footer {
 
 .team-member {
   font-size: 1.5rem;
+}
+
+.team-anchor {
+  display: block;
+  position: relative;
+  top: -60px;
+  visibility: hidden;
+}
+
+.name-highlight {
+  color: aqua;
 }
 
 /* --------------------------------------------------------------SLIDESHOW - PhotoCarousel  */
@@ -247,40 +341,40 @@ html {
 .static {
   height: 100px;
   margin-top: 30px;
-  border-bottom: 2px solid aqua;
-  border-top: 2px solid aqua;
-  border-color: aqua;
+  border-bottom: 2px solid gray;
+  border-top: 2px solid gray;
+  border-color: gray;
   background: black;
   color: white;
 }
 
 .bg1::after {
-  height: 90%;
-  border-bottom: 2px solid aqua;
-  border-top: 2px solid aqua;
+  height: 75%;
+  border-bottom: 2px solid gray;
+  /* border-top: 2px solid gray; */
   background-image: url("https://i.imgur.com/9ljZyBt.jpg");
 }
 
 .guilt-bkg::after {
   height: 70%;
-  border-bottom: 2px solid aqua;
-  border-top: 2px solid aqua;
+  border-bottom: 2px solid gray;
+  border-top: 2px solid gray;
   background-image: url("https://i.imgur.com/dZZIsym.jpg");
 }
 
 .organ-bkg::after {
   margin-top: 700px;
   height: 100%;
-  border-bottom: 2px solid aqua;
-  border-top: 2px solid aqua;
+  border-bottom: 2px solid gray;
+  border-top: 2px solid gray;
   background-image: url("https://i.imgur.com/bsis7AA.jpg");
 }
 
 .bg4::after {
   margin-top: 320px;
   height: 150%;
-  border-bottom: 2px solid aqua;
-  border-top: 2px solid aqua;
+  border-bottom: 2px solid gray;
+  border-top: 2px solid gray;
   background-image: url("https://i.imgur.com/9ljZyBt.jpg");
 }
 
@@ -302,24 +396,16 @@ html {
     font-size: 1.5rem;
   }
 
+  .link-container {
+    margin-top: 13px;
+  }
+
   .bg1::after {
-    height: 110%;
-  }
-
-  .welcome-div {
-    margin-top: 300px;
-  }
-
-  .guilt-gif {
-    margin-top: 90px;
-    width: 820px;
-    border-style: solid;
-    border-width: 2px;
-    color: aqua;
+    height: 100%;
   }
 
   .outerbrain-logo {
-    width: 600px;
+    width: 500px;
     margin-bottom: -20px;
     animation: pulse 1.5s infinite;
     animation-timing-function: linear;
@@ -334,10 +420,76 @@ html {
     width: 100%;
   }
 
+  .static {
+    width: 100%;
+    font-family: "Wire One";
+    font-size: 1.5rem;
+  }
+
+  .guilt-gif {
+    margin-top: 90px;
+    width: 820px;
+    border-style: solid;
+    border-width: 2px;
+    color: gray;
+  }
+
   .guilt-logo {
+    margin-top: 200px;
     width: 700px;
     background: none;
     border: none;
+  }
+
+  .parallax::after {
+    background-size: 160%;
+  }
+
+  .welcome-div {
+    margin-top: 150px;
+  }
+
+  .guilt-div {
+    text-align: center;
+    margin-top: 200px;
+  }
+
+  .welcome-to-outer-brain {
+    font-size: 5rem;
+    margin-top: 20px;
+  }
+
+  .guilt-description {
+    text-align: center;
+    width: 75%;
+    color: white;
+    margin-left: 12%;
+    padding: 25px;
+  }
+
+  .guilt-bkg::after {
+    margin-top: -200px;
+    height: 150%;
+  }
+
+  .guilt-trailer {
+    width: 840px;
+    height: 480px;
+    margin-top: 50px;
+    margin-bottom: -60px;
+  }
+
+  .guilt-anchor {
+    display: block;
+    position: relative;
+    top: 100px;
+    visibility: hidden;
+  }
+
+  .organ-trailer {
+    margin-top: 100px;
+    width: 840px;
+    height: 480px;
   }
 
   .organ-description {
@@ -355,63 +507,18 @@ html {
     background: none;
     border: none;
   }
-  .welcome-to-outer-brain {
-    font-size: 6rem;
-    margin-top: 30px;
-  }
-
-  .guilt-div {
-    text-align: center;
-    margin-top: 300px;
-  }
-
-  .parallax::after {
-    background-size: 160%;
-  }
-
-  .static {
-    font-family: "Wire One";
-    font-size: 1.5rem;
-  }
-
-  .guilt-description {
-    text-align: center;
-    width: 75%;
-    color: white;
-    margin-left: 12%;
-    padding: 25px;
-  }
-
-  .guilt-trailer {
-    width: 840px;
-    height: 480px;
-    margin-top: 50px;
-    margin-bottom: -60px;
-  }
-
-  .organ-trailer {
-    margin-top: 30px;
-    width: 840px;
-    height: 480px;
-  }
 
   .itch {
     margin-top: 80px;
     display: block;
   }
 
-  .team-member {
-    font-size: 2rem;
-  }
-
-  .guilt-bkg::after {
-    margin-top: -200px;
-    height: 200%;
-  }
-
   .organ-bkg::after {
     margin-top: 1450px;
-    height: 220%;
+    height: 180%;
+  }
+  .team-member {
+    font-size: 2rem;
   }
 
   .bg4::after {
@@ -452,6 +559,26 @@ html {
   .organ-ost {
     width: 700px;
     height: 300px;
+  }
+
+  .right-side-links {
+    margin-top: -6px;
+    margin-right: 20px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    justify-content: flex-end;
+    height: 10%;
+    padding: 10px;
+  }
+
+  .link-button:hover,
+  .home-button:hover {
+    background-color: aqua;
+    cursor: pointer;
+    color: black;
   }
 }
 

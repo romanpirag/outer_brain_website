@@ -4,10 +4,11 @@ import React from "react"
 function OrganPage() {
   return (
     <div className="organ-div">
+      <div className="organ-anchor" id="organ-link" />
       <section className="logo-background">
         <img
           className="organ-logo"
-          src="https://i.imgur.com/KcKkqAE.png"
+          src="https://i.imgur.com/DQ3EQTw.png"
           alt="Organ Logo"
         />
       </section>

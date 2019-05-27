@@ -4,9 +4,7 @@ import React from "react"
 function GuiltPage() {
   return (
     <div>
-      {/* <section class="section static">
-        <h1>GUILT</h1>
-      </section> */}
+      <div className="guilt-anchor" id="guilt-link" />
       <section className="guilt-div">
         <section>
           <img

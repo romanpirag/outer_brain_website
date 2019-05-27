@@ -8,11 +8,12 @@ function HomePage() {
   return (
     <div>
       <main className="wrapper">
+        <div id="home-link" />
         <section className="section parallax bg1">
           <Welcome />
         </section>
+
         <GuiltPage />
-        <div id="organ-link" />
         <section className="section parallax organ-bkg" />
         <OrganPage />
         <section className="section parallax bg4">
