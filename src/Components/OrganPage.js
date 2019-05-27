@@ -7,7 +7,7 @@ function OrganPage() {
       <div className="organ-anchor" id="organ-link" />
       <section className="logo-background">
         <img
-          className="organ-logo"
+          className="organ-logo wiggle"
           src="https://i.imgur.com/DQ3EQTw.png"
           alt="Organ Logo"
         />
@@ -27,7 +27,7 @@ function OrganPage() {
         <iframe
           className="organ-trailer"
           title="Guilt Trailer"
-          src="https://www.youtube.com/embed/Io9E-P2RkUg"
+          src="https://www.youtube.com/embed/ZQYHSL2n4es"
           frameborder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen

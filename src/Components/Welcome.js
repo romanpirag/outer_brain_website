@@ -1,11 +1,12 @@
 import React from "react"
 
+
 function Welcome() {
   return (
     <div>
-      <section className="welcome-div">
+      <section className="welcome-div pulse">
         <img
-          className="outerbrain-logo"
+          className="outerbrain-logo fade-in-element"
           src="https://i.imgur.com/uiACHoF.png"
           alt="Brain Logo"
         />
@@ -21,5 +22,6 @@ function Welcome() {
     </div>
   )
 }
+
 
 export default Welcome

@@ -12,7 +12,6 @@ function HomePage() {
         <section className="section parallax bg1">
           <Welcome />
         </section>
-
         <GuiltPage />
         <section className="section parallax organ-bkg" />
         <OrganPage />
