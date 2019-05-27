@@ -1,6 +1,5 @@
 import React from "react"
-import PhotoCarousel2 from "./PhotoCarousel2"
-
+// import PhotoCarousel2 from "./PhotoCarousel2"
 
 function OrganPage() {
   return (
@@ -33,6 +32,20 @@ function OrganPage() {
           allowfullscreen
         />
       </section>
+      <h3 className="ost-title">Organ Quarter OST</h3>
+      <section>
+        <iframe
+          className="organ-ost"
+          title="Organ OST"
+          //   style="border: 0; width: 400px; height: 472px;"
+          src="https://bandcamp.com/EmbeddedPlayer/album=2621556706/size=large/bgcol=000000/linkcol=0083ff/artwork=small/transparent=true/"
+          seamless
+        >
+          <a href="http://anadale.bandcamp.com/album/organ-quarter-ost">
+            Organ Quarter OST by Anadale
+          </a>
+        </iframe>
+      </section>
       <section>
         <img
           className="guilt-gif"
@@ -47,6 +60,7 @@ function OrganPage() {
           alt="Guilt Gif"
         />
       </section>
+
       {/* <section>
         <img
           className="guilt-gif"

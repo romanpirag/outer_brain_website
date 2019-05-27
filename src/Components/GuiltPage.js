@@ -1,5 +1,5 @@
 import React from "react"
-import Slideshow from "./Slideshow"
+// import Slideshow from "./Slideshow"
 
 function GuiltPage() {
   return (
@@ -10,6 +10,7 @@ function GuiltPage() {
       <section className="guilt-div">
         <section>
           <img
+            name="GuiltPage"
             className="guilt-logo"
             src="https://i.imgur.com/83EFGB4.png"
             alt="Guilt Logo"

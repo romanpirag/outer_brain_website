@@ -8,12 +8,14 @@
 
 * {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 html {
   height: 100%;
   font-size: 16px;
 }
+
 
 body {
   font-family: "Amatic SC";
@@ -85,9 +87,6 @@ footer {
 .guilt-logo {
   width: 100%;
   border-bottom: 2px solid aqua;
-  /* background: black; */
-  /* border-top: 2px solid aqua;
-  border-color: aqua; */
 }
 
 .guilt-description {
@@ -118,7 +117,8 @@ footer {
 }
 
 .itch {
-  margin-top: -100;
+  margin-top: -100px;
+  margin-bottom: -50px;
   display: none;
 }
 
@@ -137,8 +137,6 @@ footer {
 .organ-logo {
   margin: 0;
   width: 100%;
-  /* background: black;
-  border-top: 2px solid aqua; */
   border-bottom: 2px solid aqua;
   border-color: aqua;
 }
@@ -153,11 +151,29 @@ footer {
   background: black;
 }
 
+.ost-title {
+  margin-top: 20px;
+  margin-bottom: -20px;
+  font-size: 4rem;
+  color: white;
+}
+
+.organ-ost {
+  margin-top: 40px;
+  margin-bottom: -40px;
+  width: 100%;
+  height: 300px;
+  box-shadow: 2px 2px 5px rgb(31, 31, 31);
+  border-style: solid;
+  border-width: 2px;
+  color: aqua;
+}
+
 /* --------------------------------------------------------------TEAM PAGE  */
 
 .team-page {
   width: 100%;
-  margin-top: 1000px;
+  margin-top: 900px;
   color: white;
 }
 
@@ -171,7 +187,7 @@ footer {
 
 /* --------------------------------------------------------------SLIDESHOW - PhotoCarousel  */
 
-.slide-container {
+/* .slide-container {
   width: 100%;
   margin: 0;
 }
@@ -188,7 +204,7 @@ footer {
   border-style: solid;
   border-width: 3px;
   border-color: white;
-}
+} */
 
 /* --------------------------------------------------------------PARALAX  */
 
@@ -224,7 +240,7 @@ html {
   left: 0;
 
   transform: translateZ(-1px) scale(1.5);
-  background-size: 290%;
+  background-size: 190%;
   z-index: -1;
 }
 
@@ -245,21 +261,6 @@ html {
   background-image: url("https://i.imgur.com/9ljZyBt.jpg");
 }
 
-.bg2::after {
-  height: 90%;
-  border-bottom: 2px solid aqua;
-  border-top: 2px solid aqua;
-  background-image: url("https://i.imgur.com/9ljZyBt.jpg");
-}
-
-.bg4::after {
-  margin-top: 500px;
-  height: 150%;
-  border-bottom: 2px solid aqua;
-  border-top: 2px solid aqua;
-  background-image: url("https://i.imgur.com/9ljZyBt.jpg");
-}
-
 .guilt-bkg::after {
   height: 70%;
   border-bottom: 2px solid aqua;
@@ -273,6 +274,14 @@ html {
   border-bottom: 2px solid aqua;
   border-top: 2px solid aqua;
   background-image: url("https://i.imgur.com/bsis7AA.jpg");
+}
+
+.bg4::after {
+  margin-top: 320px;
+  height: 150%;
+  border-bottom: 2px solid aqua;
+  border-top: 2px solid aqua;
+  background-image: url("https://i.imgur.com/9ljZyBt.jpg");
 }
 
 .lift-section {
@@ -402,7 +411,12 @@ html {
 
   .organ-bkg::after {
     margin-top: 1450px;
-    height: 170%;
+    height: 220%;
+  }
+
+  .bg4::after {
+    margin-top: 650px;
+    height: 150%;
   }
 
   .organ-description {
@@ -416,12 +430,28 @@ html {
   }
 
   .organ-div {
-    margin-top: -300px;
+    margin-top: -700px;
   }
 
   .team-page {
     width: 100%;
-    margin-top: 1300px;
+    margin-top: 1500px;
+  }
+
+  .parallax::after {
+    background-size: 160%;
+  }
+
+  .ost-title {
+    margin-top: 20px;
+    margin-bottom: -20px;
+    font-size: 4rem;
+    color: white;
+  }
+
+  .organ-ost {
+    width: 700px;
+    height: 300px;
   }
 }
 
