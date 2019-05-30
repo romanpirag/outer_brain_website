@@ -4,7 +4,7 @@ import React from "react"
 function OrganPage() {
   return (
     <div className="organ-div">
-      <div className="organ-anchor" id="organ-link" />
+      <div className="organ-anchor" id="organ" />
       <section className="logo-background">
         <img
           className="organ-logo wiggle"

@@ -8,7 +8,7 @@ function HomePage() {
   return (
     <div>
       <main className="wrapper">
-        <div id="home-link" />
+        <div id="home" />
         <section className="section parallax bg1">
           <Welcome />
         </section>

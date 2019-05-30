@@ -3,7 +3,7 @@ import React from "react"
 function TeamPage() {
   return (
     <div className="team-page">
-      <div className="team-anchor" id="team-link" />
+      <div className="team-anchor" id="team" />
       <section class="section static">
         <h1>The Outer Brain Team</h1>
       </section>

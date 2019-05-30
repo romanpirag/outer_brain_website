@@ -4,16 +4,16 @@ export class TopLinks extends React.Component {
     return (
       <div>
         <div className="link-container">
-          <a className="link-button" href="#home-link">
+          <a className="link-button" href="#home">
             HOME
           </a>
-          <a className="link-button" href="#guilt-link">
+          <a className="link-button" href="#guilt">
             GUILT
           </a>
-          <a className="link-button" href="#organ-link">
+          <a className="link-button" href="#organ">
             ORGAN QUARTER
           </a>
-          <a className="link-button" href="#team-link">
+          <a className="link-button" href="#team">
             TEAM
           </a>
         </div>

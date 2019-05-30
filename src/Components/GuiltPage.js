@@ -7,7 +7,7 @@ import React from "react"
 function GuiltPage() {
   return (
     <div>
-      <div className="guilt-anchor" id="guilt-link" />
+      <div className="guilt-anchor" id="guilt" />
       <section className="guilt-div">
         <section>
           <img
@@ -34,8 +34,6 @@ function GuiltPage() {
           <iframe
             className="guilt-trailer"
             title="Guilt Trailer"
-            //   width="560"
-            //   height="315"
             src="https://www.youtube.com/embed/ncmilTawjU8"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
