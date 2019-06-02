@@ -1,6 +1,5 @@
 import React from "react"
 
-
 function Welcome() {
   return (
     <div>
@@ -16,12 +15,11 @@ function Welcome() {
           Welcome to Outer Brain Studios
         </h1>
       </section>
-      {/* <section class="titlecard">
+      {/* <section Name"titlecard">
         <h1>GAME PROJECTS</h1>
       </section> */}
     </div>
   )
 }
-
 
 export default Welcome

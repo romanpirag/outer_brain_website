@@ -1,9 +1,6 @@
 import React from "react"
 // import Slideshow from "./Slideshow"
 
-
-
-
 function GuiltPage() {
   return (
     <div>
@@ -23,10 +20,10 @@ function GuiltPage() {
               GUILT is a multiplayer third-person survival action RPG set in a
               gritty, dark fantasy world of bone and misery. Players will
               explore the seemingly endless Trail of Bones, fending off
-              nightmarish threats and encountering other players at random.
-              The game combines meaningful multiplayer interactions with deep
-              roguelike gameplay into a deliciously dark cocktail of
-              adventure, tension and emergent storytelling.
+              nightmarish threats and encountering other players at random. The
+              game combines meaningful multiplayer interactions with deep
+              roguelike gameplay into a deliciously dark cocktail of adventure,
+              tension and emergent storytelling.
             </p>
           </div>
         </section>
@@ -35,16 +32,16 @@ function GuiltPage() {
             className="guilt-trailer"
             title="Guilt Trailer"
             src="https://www.youtube.com/embed/ncmilTawjU8"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           />
         </section>
 
         <section className="itch">
           <iframe
             title="itch"
-            frameborder="0"
+            frameBorder="0"
             src="https://itch.io/embed/415443?border_width=5&amp;bg_color=953445&amp;fg_color=fefefa&amp;link_color=d74439&amp;border_color=000000"
             width="840"
             height="175"

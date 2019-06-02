@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Oranienbaum");
 @import url("https://fonts.googleapis.com/css?family=Nixie+One|Oranienbaum");
 @import url("https://fonts.googleapis.com/css?family=Cormorant+SC|Faster+One|Six+Caps|Wire+One");
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap");
 
 /* ------------------------------------------------------------------------------------------------------------------ */
 
@@ -17,37 +18,42 @@ html {
 }
 
 body {
-  font-family: "Amatic SC";
+  font-family: "Noto Sans HK", sans-serif;
   height: 100%;
   background: black;
 }
 
 h1 {
-  font-family: "Wire One";
   font-size: 4.3rem;
+  letter-spacing: 2px;
 }
 
 h3 {
-  font-family: "Amatic SC";
   font-size: 2rem;
+  letter-spacing: 4px;
+}
+
+h1,
+h3 {
+  font-family: "Wire One";
 }
 
 p {
-  font-size: 1.1rem;
-  font-family: "Cormorant";
+  font-size: 1rem;
 }
 
 header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background: black;
   opacity: 0.8;
   border-bottom: 2px solid gray;
-  display: flex;
   position: fixed;
   top: 0;
   z-index: 2;
   width: 100%;
-  justify-content: space-between;
-  height: 10%;
+  height: 70px;
   padding: 10px;
   box-shadow: 0px 10px 15px black;
 }
@@ -58,21 +64,22 @@ header {
 
 /* ------------------------------------------------------------------------------HEADER TOP LINKS  */
 
-.link-container {
-  margin-left: 6px;
-  margin-top: 8px;
+.main {
+  margin-top: 50px;
 }
 
-.home-button,
+.link-container {
+  width: 100%;
+}
+
 .link-button {
   margin: 5px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: "Teko";
   background-color: black;
   color: white;
-  padding: 0.3em 0.7em;
+  padding: 6px 12px 5px 12px;
   width: 10px;
-  height: 40px;
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
@@ -89,6 +96,10 @@ header {
   color: grey;
 }
 
+.right-side-links {
+  display: none;
+}
+
 /* .copyright {
   margin: 10px;
   font-size: .8rem;
@@ -101,7 +112,6 @@ header {
 }  */
 
 .right-side-links {
-  display: none;
 }
 
 .facebook-link {
@@ -395,21 +405,11 @@ html {
     font-size: 4rem;
   }
 
-  p {
-    font-size: 1.5rem;
-  }
-
   .link-container {
-    margin-top: 13px;
   }
 
   .bg1::after {
     height: 100%;
-  }
-
-  .outerbrain-logo {
-    width: 500px;
-    margin-bottom: -20px;
   }
 
   .pulse {
@@ -418,8 +418,8 @@ html {
   }
 
   .fade-in-element {
-  animation: fade-in 1.4s;
-}
+    animation: fade-in 1.4s;
+  }
 
   .slide-container {
     width: 60%;
@@ -572,7 +572,7 @@ html {
   }
 
   .right-side-links {
-    margin-top: -6px;
+    /* margin-top: -6px;
     margin-right: 20px;
     display: flex;
     position: fixed;
@@ -581,7 +581,7 @@ html {
     z-index: 1;
     justify-content: flex-end;
     height: 10%;
-    padding: 10px;
+    padding: 10px; */
   }
 
   .link-button:hover,
@@ -589,6 +589,11 @@ html {
     background-color: aqua;
     cursor: pointer;
     color: black;
+  }
+
+    .outerbrain-logo {
+    width: 500px;
+    margin-bottom: -20px;
   }
 }
 
@@ -616,13 +621,41 @@ html {
   }
 }
 
-.wiggle { 
+.wiggle {
   animation: wiggle 75ms infinite;
-  animation-timing-function: linear;   
+  animation-timing-function: linear;
 }
 
+/* -------------------------------------------------- MEDIA QUERY 460 */
+@media (min-width: 460px) {
+  .right-side-links {
+    display: block;
+  }
+
+  .link-container {
+    width: auto;
+  }
+
+}
+
+/* -------------------------------------------------- MEDIA QUERY 321 */
+
+@media (min-width: 321px) {
+  .main {
+    margin-top: auto;
+  }
+}
+
+/* --------------------------------------------------  */
+
 @keyframes wiggle {
-  0% { transform: translate(2px, 0); }
-  50% { transform: translate(-2px, 0); }
-  100% { transform: translate(2px, 0); }
+  0% {
+    transform: translate(2px, 0);
+  }
+  50% {
+    transform: translate(-2px, 0);
+  }
+  100% {
+    transform: translate(2px, 0);
+  }
 }

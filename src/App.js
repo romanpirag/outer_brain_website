@@ -14,12 +14,12 @@ function App() {
         <HomePage />
       </main>
 
-      <footer>
+      {/* <footer>
         <h1 className="copyright">
           {" "}
           &copy; Outer Brain all rights reserved 2019
         </h1>
-      </footer>
+      </footer> */}
     </div>
   )
 }

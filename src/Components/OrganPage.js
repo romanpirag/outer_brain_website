@@ -15,11 +15,11 @@ function OrganPage() {
       <section>
         <div>
           <p className="organ-description">
-            Organ Quarter is a VR survival horror game built from the
-            ground-up for hand-tracked virtual reality. Explore labyrinthine
-            environments, engage in tense combat, carefully manage your
-            resources and solve horrifying puzzles in this homage to the slow,
-            methodical survival horror experiences of the '90s.
+            Organ Quarter is a VR survival horror game built from the ground-up
+            for hand-tracked virtual reality. Explore labyrinthine environments,
+            engage in tense combat, carefully manage your resources and solve
+            horrifying puzzles in this homage to the slow, methodical survival
+            horror experiences of the '90s.
           </p>
         </div>
       </section>
@@ -28,9 +28,9 @@ function OrganPage() {
           className="organ-trailer"
           title="Guilt Trailer"
           src="https://www.youtube.com/embed/ZQYHSL2n4es"
-          frameborder="0"
+          frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         />
       </section>
       <h3 className="ost-title">Organ Quarter OST</h3>
