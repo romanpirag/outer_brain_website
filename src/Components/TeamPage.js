@@ -5,7 +5,7 @@ function TeamPage() {
     <div className="team-page">
       <div className="team-anchor" id="team" />
       <section className="section static">
-        <h1>The Outer Brain Team</h1>
+        <h1>Outer Brain Team</h1>
       </section>
       <section className="team-container">
         <div>
