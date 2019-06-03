@@ -323,7 +323,7 @@ html {
 
 .wrapper {
   height: 100vh;
-  overflow-x: hidden;
+  overflow-x: auto;
   overflow-y: auto;
   perspective: 2px;
 }
