@@ -13,11 +13,13 @@
 }
 
 html {
+  -webkit-overflow-scrolling: touch;
   height: 100%;
   font-size: 16px;
 }
 
 body {
+  -webkit-overflow-scrolling: touch;
   font-family: "Noto Sans HK", sans-serif;
   height: 100%;
   background: black;
@@ -347,7 +349,7 @@ html {
   left: 0;
 
   transform: translateZ(-1px) scale(1.5);
-  background-size: 190%;
+  /* background-size: 10%; */
   z-index: -1;
 }
 
@@ -365,7 +367,7 @@ html {
   height: 75%;
   border-bottom: 2px solid gray;
   /* border-top: 2px solid gray; */
-  background-image: url("https://i.imgur.com/9ljZyBt.jpg");
+  background-image: url("https://i.imgur.com/qYHh2WQ.jpg");
 }
 
 .guilt-bkg::after {
@@ -388,7 +390,7 @@ html {
   height: 150%;
   border-bottom: 2px solid gray;
   border-top: 2px solid gray;
-  background-image: url("https://i.imgur.com/9ljZyBt.jpg");
+  background-image: url("https://i.imgur.com/qYHh2WQ.jpg");
 }
 
 .lift-section {
@@ -403,9 +405,6 @@ html {
   }
   h3 {
     font-size: 4rem;
-  }
-
-  .link-container {
   }
 
   .bg1::after {
@@ -451,10 +450,6 @@ html {
     border: none;
   }
 
-  .parallax::after {
-    background-size: 160%;
-  }
-
   .welcome-div {
     margin-top: 150px;
   }
@@ -479,7 +474,7 @@ html {
 
   .guilt-bkg::after {
     margin-top: -200px;
-    height: 150%;
+    height: 100%;
   }
 
   .guilt-trailer {
@@ -556,7 +551,7 @@ html {
   }
 
   .parallax::after {
-    background-size: 160%;
+    background-size: 100%;
   }
 
   .ost-title {
@@ -569,19 +564,6 @@ html {
   .organ-ost {
     width: 700px;
     height: 300px;
-  }
-
-  .right-side-links {
-    /* margin-top: -6px;
-    margin-right: 20px;
-    display: flex;
-    position: fixed;
-    top: 0;
-    right: 0;
-    z-index: 1;
-    justify-content: flex-end;
-    height: 10%;
-    padding: 10px; */
   }
 
   .link-button:hover,
