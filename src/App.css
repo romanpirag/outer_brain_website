@@ -13,13 +13,13 @@
 }
 
 html {
-  -webkit-overflow-scrolling: touch;
+  /* -webkit-overflow-scrolling: touch; */
   height: 100%;
   font-size: 16px;
 }
 
 body {
-  -webkit-overflow-scrolling: touch;
+  /* -webkit-overflow-scrolling: touch; */
   font-family: "Noto Sans HK", sans-serif;
   height: 100%;
   background: black;
