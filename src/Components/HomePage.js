@@ -9,12 +9,19 @@ function HomePage() {
     <div>
       <main className="wrapper">
         <div id="home" />
+
         <section className="section parallax bg1">
           <Welcome />
         </section>
-        <GuiltPage />
-        <section className="section parallax organ-bkg" />
-        <OrganPage />
+
+        <section className="section parallax guilt-bkg"/>
+        <section className="section parallax guilt-bkg222" />
+          <GuiltPage />
+
+        <section className="section parallax organ-bkg">
+        <OrganPage/>
+        </section>
+        
         <section className="section parallax bg4">
           <TeamPage />
         </section>
