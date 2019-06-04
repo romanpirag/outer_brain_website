@@ -47,6 +47,11 @@ function TeamPage() {
             <span className="name-highlight">Anadale</span> - Composer and
             designer
           </h3>
+
+          <h1 className="copyright">
+            {" "}
+            &copy; Outer Brain all rights reserved 2019
+          </h1>
         </div>
       </section>
     </div>

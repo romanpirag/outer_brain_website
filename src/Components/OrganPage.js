@@ -7,7 +7,7 @@ function OrganPage() {
       <div className="organ-anchor" id="organ" />
       <section className="logo-background">
         <img
-          className="organ-logo"
+          className="organ-logo shake"
           src="https://i.imgur.com/LeR87lb.png"
           alt="Organ Logo"
         />

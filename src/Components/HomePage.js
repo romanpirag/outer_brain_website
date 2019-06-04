@@ -22,10 +22,9 @@ function HomePage() {
         <section className="section parallax organ-bkg222"/>
           <OrganPage/>
         
-        {/* <section className="section parallax bg4"/>
-        <section className="section parallax bg4"/>
+        <section className="section parallax team-bkg"/>
           <TeamPage />
-        </section> */}
+
       </main>
     </div>
   )
