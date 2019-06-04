@@ -108,18 +108,12 @@ a {
   display: none;
 }
 
-/* .copyright {
+.copyright {
   margin: 10px;
-  font-size: .8rem;
-  font-family: "Cormorant";
+  font-size: 1rem;
   color: white;
-  margin-bottom: 5px;
-  bottom: 0;
+  margin-top: 100px;
   z-index: 2;
-  position: fixed;
-}  */
-
-.right-side-links {
 }
 
 .facebook-link {
@@ -144,9 +138,26 @@ a {
   color: aqua;
 }
 
+.game-description-div {
+  background: black;
+  margin-top: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-top: solid 2px grey;
+  border-bottom: solid 2px grey;
+}
+
+.game-description {
+  margin-top: 8px;
+  color: white;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
 /* --------------------------------------------------------------WELCOME PAGE  */
 .welcome-div {
-  margin-top: 0px;
+  margin-top: 100px;
 }
 
 .outerbrain-logo {
@@ -170,26 +181,16 @@ a {
 
 .guilt-div {
   text-align: center;
-  margin-top: 160px;
+  margin-top: -900px;
 }
 
 .guilt-logo {
   width: 100%;
-  border-bottom: 2px solid gray;
-}
-
-.guilt-description {
-  margin: 0;
-  color: white;
-  margin-bottom: 10px;
-  background: black;
-  border-bottom: 2px solid gray;
-  padding: 10px;
 }
 
 .guilt-trailer {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 700px;
   width: 100%;
   height: 240px;
 }
@@ -206,7 +207,7 @@ a {
 .guilt-anchor {
   display: block;
   position: relative;
-  top: -70px;
+  top: -100px;
   visibility: hidden;
 }
 
@@ -219,7 +220,7 @@ a {
 /* ----------------------------------------------------------------------ORGAN PAGE */
 
 .organ-div {
-  margin-top: -500px;
+  margin-top: -1000px;
 }
 
 .organ-trailer {
@@ -232,18 +233,6 @@ a {
   opacity: 0.9;
   margin: 0;
   width: 100%;
-  border-bottom: 2px solid gray;
-  border-color: gray;
-}
-
-.organ-description {
-  margin: 0;
-  text-align: center;
-  width: 100%;
-  color: white;
-  padding: 10px;
-  border-bottom: 2px solid gray;
-  background: black;
 }
 
 .ost-title {
@@ -275,7 +264,7 @@ a {
 
 .team-page {
   width: 100%;
-  margin-top: 900px;
+  margin-top: -500px;
   color: white;
 }
 
@@ -284,7 +273,7 @@ a {
 }
 
 .team-member {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .team-anchor {
@@ -368,39 +357,65 @@ html {
 }
 
 .bg1::after {
-  /* border-top: 2px solid gray; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 120%;
+  border-bottom: 2px solid gray;
+  background-image: url("https://i.imgur.com/guRfnYD.png");
 }
 
 .guilt-bkg::after {
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 350px;
   height: 70%;
   border-bottom: 2px solid gray;
   border-top: 2px solid gray;
   background-image: url("https://i.imgur.com/1EaaJtN.gif");
 }
 
-/* .guilt-bkg222::after {
-  height: 100%;
-  border-bottom: 2px solid gray;
-  border-top: 2px solid gray;
-  background-image: url("https://roadtovrlive-5ea0.kxcdn.com/wp-content/uploads/2015/02/blue-gradient.jpg");
-} */
+.guilt-bkg222::after {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 110%;
+  margin-top: 430px;
+  background-image: url("https://i.imgur.com/Q0eX504.png");
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
+}
 
 .organ-bkg::after {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 2px solid gray;
+  border-top: 2px solid gray;
+  background-image: url("https://i.imgur.com/v6SA7ew.jpg");
+  margin-top: 400px;
+  height: 1000px;
+}
+
+.organ-bkg222::after {
+  height: 100%;
+  margin-top: 800px;
+  background-image: url("https://i.imgur.com/uQKlpxY.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black;
 }
 
 .team-bkg::after {
-  /* margin-top: 320px;
-  height: 150%;
+  margin-top: 300px;
+  height: 60%;
   border-bottom: 2px solid gray;
   border-top: 2px solid gray;
-  background-image: url("https://i.imgur.com/v6SA7ew.jpg"); */
+  background-image: url("https://i.imgur.com/guRfnYD.png");
 }
 
 .lift-section {
   margin-top: -720px;
 }
-
-
 
 /* -------------------------------------------------- MEDIA QUERY 460 */
 /* -------------------------------------------------- MEDIA QUERY 460 */
@@ -441,6 +456,8 @@ html {
     width: 100%;
     display: flex;
     justify-content: center;
+    background: none;
+    border: none;
   }
 
   .game-description {
@@ -625,7 +642,7 @@ html {
   .team-bkg::after {
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 420px;
+    margin-top: 380px;
     height: 550px;
     border-bottom: 2px solid gray;
     border-top: 2px solid gray;
@@ -698,6 +715,8 @@ html {
     width: 100%;
     display: flex;
     justify-content: center;
+    background: none;
+    border: none;
   }
 
   .game-description {
@@ -949,13 +968,10 @@ html {
   } */
 }
 
--
-
 /* -------------------------------------------------------------------------------------- MEDIA QUERY 2560 1440 🌟🌟🌟 */
 /* -------------------------------------------------------------------------------------- MEDIA QUERY 2560 1440 🌟🌟🌟 */
 /* -------------------------------------------------------------------------------------- MEDIA QUERY 2560 1440 🌟🌟🌟 */
 /* -------------------------------------------------------------------------------------- MEDIA QUERY 2560 1440 🌟🌟🌟 */
-
 
 @media (min-width: 2560px) {
   h1 {
@@ -982,6 +998,8 @@ html {
     width: 100%;
     display: flex;
     justify-content: center;
+    background: none;
+    border: none;
   }
 
   .game-description {
