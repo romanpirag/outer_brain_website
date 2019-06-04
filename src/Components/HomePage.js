@@ -18,13 +18,14 @@ function HomePage() {
         <section className="section parallax guilt-bkg222" />
           <GuiltPage />
 
-        <section className="section parallax organ-bkg">
-        <OrganPage/>
-        </section>
+        <section className="section parallax organ-bkg"/>
+        <section className="section parallax organ-bkg222"/>
+          <OrganPage/>
         
-        <section className="section parallax bg4">
+        {/* <section className="section parallax bg4"/>
+        <section className="section parallax bg4"/>
           <TeamPage />
-        </section>
+        </section> */}
       </main>
     </div>
   )

@@ -7,21 +7,19 @@ function OrganPage() {
       <div className="organ-anchor" id="organ" />
       <section className="logo-background">
         <img
-          className="organ-logo wiggle"
-          src="https://i.imgur.com/DQ3EQTw.png"
+          className="organ-logo"
+          src="https://i.imgur.com/LeR87lb.png"
           alt="Organ Logo"
         />
       </section>
-      <section>
-        <div>
-          <p className="organ-description">
-            Organ Quarter is a VR survival horror game built from the ground-up
-            for hand-tracked virtual reality. Explore labyrinthine environments,
-            engage in tense combat, carefully manage your resources and solve
-            horrifying puzzles in this homage to the slow, methodical survival
-            horror experiences of the '90s.
-          </p>
-        </div>
+      <section className="game-description-div">
+        <p className="game-description">
+          Organ Quarter is a VR survival horror game built from the ground-up
+          for hand-tracked virtual reality. Explore labyrinthine environments,
+          engage in tense combat, carefully manage your resources and solve
+          horrifying puzzles in this homage to the slow, methodical survival
+          horror experiences of the '90s.
+        </p>
       </section>
       <section>
         <iframe

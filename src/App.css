@@ -380,11 +380,6 @@ html {
 } */
 
 .organ-bkg::after {
-  margin-top: 700px;
-  height: 100%;
-  border-bottom: 2px solid gray;
-  border-top: 2px solid gray;
-  background-image: url("https://i.imgur.com/bsis7AA.jpg");
 }
 
 .bg4::after {
@@ -392,7 +387,7 @@ html {
   height: 150%;
   border-bottom: 2px solid gray;
   border-top: 2px solid gray;
-  background-image: url("https://i.imgur.com/qYHh2WQ.jpg");
+  background-image: url("https://i.imgur.com/v6SA7ew.jpg");
 }
 
 .lift-section {
@@ -413,16 +408,27 @@ html {
     font-size: 4rem;
   }
 
+  .game-description-div {
+    margin-top: -20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .game-description {
+    text-align: center;
+    width: 45%;
+    color: white;
+    padding: 25px;
+    background: none;
+    border-bottom: none;
+  }
+
   /* ---------------------Media Parallax */
   /* ---------------------------------- */
 
   .parallax::after {
     background-size: 100%;
-  }
-
-  .organ-bkg::after {
-    margin-top: 1450px;
-    height: 180%;
   }
 
   .bg4::after {
@@ -473,7 +479,7 @@ html {
   }
 
   .guilt-bkg222::after {
-    height: 1300px;
+    height: 1400px;
     margin-top: 1000px;
     background-image: url("https://i.imgur.com/Q0eX504.png");
     background-repeat: no-repeat;
@@ -503,22 +509,6 @@ html {
     margin-bottom: 0px;
   }
 
-  .guilt-description-div {
-    margin-top: -20px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-
-  .guilt-description {
-    text-align: center;
-    width: 45%;
-    color: white;
-    padding: 25px;
-    background: none;
-    border-bottom: none;
-  }
-
   .guilt-trailer {
     width: 840px;
     height: 480px;
@@ -541,8 +531,29 @@ html {
   }
 
   /* ---------------------------ORGAN SECTION  */
+
+  .organ-bkg::after {
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+    background-image: url("https://i.imgur.com/v6SA7ew.jpg");
+    margin-top: 520px;
+    height: 1000px;
+  }
+
+   .organ-bkg222::after {
+    height: 1600px;
+    margin-top: 1100px;
+    background-image: url("https://i.imgur.com/uQKlpxY.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+  }
+
   .organ-div {
-    margin-top: 5000px;
+    margin-top: -1000px;
   }
 
   .organ-logo {
@@ -570,13 +581,14 @@ html {
   }
 
   .ost-title {
-    margin-top: 20px;
+    margin-top: 80px;
     margin-bottom: -20px;
     font-size: 4rem;
     color: white;
   }
 
   .organ-ost {
+
     width: 700px;
     height: 300px;
   }

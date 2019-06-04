@@ -14,8 +14,8 @@ function GuiltPage() {
             alt="Guilt Logo"
           />
         </section>
-        <section className="guilt-description-div">
-            <p className="guilt-description">
+        <section className="game-description-div">
+            <p className="game-description">
               GUILT is a multiplayer third-person survival action RPG set in a
               gritty, dark fantasy world of bone and misery. Players will
               explore the seemingly endless Trail of Bones, fending off
