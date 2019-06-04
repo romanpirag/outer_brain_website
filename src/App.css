@@ -52,7 +52,7 @@ header {
   align-items: center;
   background: black;
   opacity: 0.8;
-  border-bottom: 2px solid rgb(110, 135, 154);
+  border-bottom: 2px solid beige;
   position: fixed;
   top: 0;
   z-index: 2;
@@ -94,7 +94,7 @@ a {
   border-radius: 8px;
   border-style: solid;
   border-width: 2px;
-  color:  rgb(110, 135, 154);
+  color:beige;
 }
 
 .link-button:active {
@@ -106,6 +106,7 @@ a {
 
 .right-side-links {
   display: none;
+  margin-right: 20px;
 }
 
 .copyright {
@@ -120,14 +121,14 @@ a {
   margin: 5px;
   font-size: 3rem;
   z-index: 1;
-  color:  rgb(110, 135, 154);
+  color: rgb(110, 135, 154);
 }
 
 .steam-link {
   margin: 5px;
   font-size: 3rem;
   z-index: 1;
-  color:  rgb(110, 135, 154);
+  color: rgb(110, 135, 154);
 }
 
 .facebook-link:hover,
@@ -475,6 +476,28 @@ html {
     color: black;
   }
 
+  .facebook-link {
+    margin: 5px;
+    font-size: 3rem;
+    z-index: 1;
+    color: rgb(110, 135, 154);
+  }
+
+  .steam-link {
+    margin: 5px;
+    font-size: 3rem;
+    z-index: 1;
+    color: rgb(110, 135, 154);
+  }
+
+  .facebook-link:hover,
+  .steam-link:hover {
+    margin: 5px;
+    font-size: 3rem;
+    z-index: 1;
+    color: aqua;
+  }
+
   /* ---------------------Media Parallax */
 
   .parallax::after {
@@ -574,8 +597,8 @@ html {
   .organ-bkg::after {
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 2px solid  rgb(110, 135, 154);
-    border-top: 2px solid  rgb(110, 135, 154);
+    border-bottom: 2px solid rgb(110, 135, 154);
+    border-top: 2px solid rgb(110, 135, 154);
     background-image: url("https://i.imgur.com/v6SA7ew.jpg");
     margin-top: 520px;
     height: 1000px;
@@ -643,8 +666,8 @@ html {
     background-size: cover;
     margin-top: 380px;
     height: 550px;
-    border-bottom: 2px solid  rgb(110, 135, 154);
-    border-top: 2px solid  rgb(110, 135, 154);
+    border-bottom: 2px solid rgb(110, 135, 154);
+    border-top: 2px solid rgb(110, 135, 154);
     background-image: url("https://i.imgur.com/guRfnYD.png");
   }
 
@@ -707,6 +730,14 @@ html {
   }
   .facebook-link {
     font-size: 4rem;
+  }
+
+  .facebook-link:hover,
+  .steam-link:hover {
+    margin: 5px;
+    font-size: 4rem;
+    z-index: 1;
+    color: aqua;
   }
 
   .game-description-div {
@@ -857,8 +888,8 @@ html {
   .organ-bkg::after {
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 2px solid  rgb(110, 135, 154);
-    border-top: 2px solid  rgb(110, 135, 154);
+    border-bottom: 2px solid rgb(110, 135, 154);
+    border-top: 2px solid rgb(110, 135, 154);
     background-image: url("https://i.imgur.com/v6SA7ew.jpg");
     margin-top: 520px;
     height: 1000px;
@@ -926,8 +957,8 @@ html {
     background-size: cover;
     margin-top: 420px;
     height: 550px;
-    border-bottom: 2px solid  rgb(110, 135, 154);
-    border-top: 2px solid  rgb(110, 135, 154);
+    border-bottom: 2px solid rgb(110, 135, 154);
+    border-top: 2px solid rgb(110, 135, 154);
     background-image: url("https://i.imgur.com/guRfnYD.png");
   }
 
@@ -990,6 +1021,14 @@ html {
   }
   .facebook-link {
     font-size: 5rem;
+  }
+
+  .facebook-link:hover,
+  .steam-link:hover {
+    margin: 5px;
+    font-size: 5rem;
+    z-index: 1;
+    color: aqua;
   }
 
   .game-description-div {
@@ -1140,8 +1179,8 @@ html {
   .organ-bkg::after {
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 2px solid  rgb(110, 135, 154);
-    border-top: 2px solid  rgb(110, 135, 154);
+    border-bottom: 2px solid rgb(110, 135, 154);
+    border-top: 2px solid rgb(110, 135, 154);
     background-image: url("https://i.imgur.com/v6SA7ew.jpg");
     margin-top: 520px;
     height: 1000px;
@@ -1209,8 +1248,8 @@ html {
     background-size: cover;
     margin-top: 420px;
     height: 550px;
-    border-bottom: 2px solid  rgb(110, 135, 154);
-    border-top: 2px solid  rgb(110, 135, 154);
+    border-bottom: 2px solid rgb(110, 135, 154);
+    border-top: 2px solid rgb(110, 135, 154);
     background-image: url("https://i.imgur.com/guRfnYD.png");
   }
 
