@@ -13,7 +13,7 @@ function HomePage() {
 
       <OrganPage />
 
-      {/* <TeamPage /> */}
+      <TeamPage />
     </>
   )
 }

@@ -1,0 +1,17 @@
+
+
+
+.team-title {
+  background-image: url("https://i.imgur.com/MU0NA3k.png");
+  height: 600px;
+}
+
+@media (min-width: 1024px) {
+  .team-title {
+    height: 800px;
+  }
+}
+
+.name-highlight {
+    color: aqua;
+}

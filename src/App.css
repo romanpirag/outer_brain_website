@@ -51,9 +51,21 @@ h2 {
 }
 
 h1,
-h3 {
+h3,
+h4 {
   font-family: "Wire One";
   text-shadow: 5px 5px 5px black;
+}
+
+h4 {
+  color: white;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+  h4 {
+    font-size: 1.5rem;
+  }
 }
 
 p {
@@ -198,11 +210,18 @@ section {
 }
 
 .copyright {
+  font-family: "Teko";
   margin: 10px;
   font-size: 1rem;
   color: white;
   margin-top: 100px;
   z-index: 2;
+}
+
+@media (min-width: 1024px) {
+  .copyright {
+    font-size: 1rem;
+  }
 }
 
 .facebook-link {
@@ -242,26 +261,6 @@ section {
   color: white;
   margin-bottom: 10px;
   padding: 10px;
-}
-
-/* --------------------------------------------------------------TEAM PAGE  */
-
-.team-page {
-  width: 100%;
-  margin-top: -500px;
-  color: white;
-}
-
-.team-container {
-  margin-top: 100px;
-}
-
-.team-member {
-  font-size: 1rem;
-}
-
-.name-highlight {
-  color: aqua;
 }
 
 /* ---------------------------------Anchors ⚓⚓️⚓️⚓️ */
@@ -373,35 +372,6 @@ section {
     color: aqua;
   }
 
-  /* --------------------------------------TEAM SECTION-- */
-
-  .team-bkg::after {
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 380px;
-    height: 550px;
-    border-bottom: 2px solid rgb(110, 135, 154);
-    border-top: 2px solid rgb(110, 135, 154);
-    background-image: url("https://i.imgur.com/guRfnYD.png");
-  }
-
-  .team-member {
-    font-size: 2rem;
-  }
-
-  .team-page {
-    width: 100%;
-    margin-top: -400px;
-  }
-
-  .team-container {
-    margin-top: 130px;
-  }
-
-  .copyright {
-    margin-top: 180px;
-    font-size: 1.5rem;
-  }
 }
 
 /* --------------------------------------------------------------------------------ANIMATIONS */
