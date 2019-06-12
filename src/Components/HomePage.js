@@ -6,27 +6,15 @@ import Welcome from "./Welcome"
 
 function HomePage() {
   return (
-    <div>
-      <main className="wrapper">
-        <div id="home" />
+    <>
+      <Welcome />
 
-        <section className="section parallax bg1">
-          <Welcome />
-        </section>
+      <GuiltPage />
 
-        <section className="section parallax guilt-bkg"/>
-        <section className="section parallax guilt-bkg222" />
-          <GuiltPage />
+      <OrganPage />
 
-        <section className="section parallax organ-bkg"/>
-        <section className="section parallax organ-bkg222"/>
-          <OrganPage/>
-        
-        <section className="section parallax team-bkg"/>
-          <TeamPage />
-
-      </main>
-    </div>
+      {/* <TeamPage /> */}
+    </>
   )
 }
 

@@ -1,18 +1,19 @@
 import React from "react"
+import "./OrganPage.css"
 // import PhotoCarousel2 from "./PhotoCarousel2"
 
 function OrganPage() {
   return (
-    <div className="organ-div">
-      <div className="organ-anchor" id="organ" />
-      <section className="logo-background">
+    <>
+      <section className="organ-title black-border">
+        <div className="organ-anchor" id="organ" />
+
         <img
-          className="organ-logo shake"
+          className="organ-logo shake logo"
           src="https://i.imgur.com/LeR87lb.png"
           alt="Organ Logo"
         />
-      </section>
-      <section className="game-description-div">
+
         <p className="game-description">
           Organ Quarter is a VR survival horror game built from the ground-up
           for hand-tracked virtual reality. Explore labyrinthine environments,
@@ -21,43 +22,46 @@ function OrganPage() {
           horror experiences of the '90s.
         </p>
       </section>
-      <section>
-        <iframe
-          className="organ-trailer"
-          title="Guilt Trailer"
-          src="https://www.youtube.com/embed/ZQYHSL2n4es"
-          frameBorder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowFullScreen
-        />
-      </section>
-      <h3 className="ost-title">Organ Quarter OST</h3>
-      <section>
-        <iframe
-          className="organ-ost"
-          title="Organ OST"
-          //   style="border: 0; width: 400px; height: 472px;"
-          src="https://bandcamp.com/EmbeddedPlayer/album=2621556706/size=large/bgcol=000000/linkcol=0083ff/artwork=small/transparent=true/"
-          seamless
-        >
-          <a href="http://anadale.bandcamp.com/album/organ-quarter-ost">
-            Organ Quarter OST by Anadale
-          </a>
-        </iframe>
-      </section>
-      <section>
-        <img
-          className="guilt-gif"
-          src="https://ksr-ugc.imgix.net/assets/015/423/410/c9d28b8d63f1611075db151ed186d27a_original.gif?ixlib=rb-2.0.0&w=680&fit=max&v=1486473216&auto=format&gif-q=50&q=92&s=b285f5f18727b867ecb2f3580eab619f"
-          alt="Guilt Gif"
-        />
-      </section>
-      <section>
-        <img
-          className="guilt-gif"
-          src="https://ksr-ugc.imgix.net/assets/015/422/869/9a3ceff377f2d50b3077237f0ff4fa89_original.gif?ixlib=rb-2.0.0&w=680&fit=max&v=1486468879&auto=format&gif-q=50&q=92&s=9161b8ccee13f9271931448edc1d0648"
-          alt="Guilt Gif"
-        />
+
+      <section className="organ-content black-border">
+        <div className="content-container">
+          <iframe
+            className="trailer"
+            title="Guilt Trailer"
+            src="https://www.youtube.com/embed/ZQYHSL2n4es"
+            frameBorder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            width="840"
+            height="480"
+          />
+
+          <h2>Organ Quarter OST</h2>
+
+          <iframe
+            className="organ-ost"
+            title="Organ OST"
+            //   style="border: 0; width: 400px; height: 472px;"
+            src="https://bandcamp.com/EmbeddedPlayer/album=2621556706/size=large/bgcol=000000/linkcol=0083ff/artwork=small/transparent=true/"
+            seamless
+          >
+            <a href="http://anadale.bandcamp.com/album/organ-quarter-ost">
+              Organ Quarter OST by Anadale
+            </a>
+          </iframe>
+
+          <img
+            className="game-gif"
+            src="https://ksr-ugc.imgix.net/assets/015/423/410/c9d28b8d63f1611075db151ed186d27a_original.gif?ixlib=rb-2.0.0&w=680&fit=max&v=1486473216&auto=format&gif-q=50&q=92&s=b285f5f18727b867ecb2f3580eab619f"
+            alt="Guilt Gif"
+          />
+
+          <img
+            className="game-gif"
+            src="https://ksr-ugc.imgix.net/assets/015/422/869/9a3ceff377f2d50b3077237f0ff4fa89_original.gif?ixlib=rb-2.0.0&w=680&fit=max&v=1486468879&auto=format&gif-q=50&q=92&s=9161b8ccee13f9271931448edc1d0648"
+            alt="Guilt Gif"
+          />
+        </div>
       </section>
 
       {/* <section>
@@ -70,7 +74,7 @@ function OrganPage() {
       {/* <section>
           <PhotoCarousel2/>
       </section> */}
-    </div>
+    </>
   )
 }
 

@@ -1,24 +1,21 @@
 import React from "react"
 
+import "./Welcome.css"
+
 function Welcome() {
   return (
-    <div>
-      <section className="welcome-div pulse">
+    <section className="welcome-title black-border">
+      <div className="home-anchor" id="home" />
+      <div id="home" className="welcome-div pulse">
         <img
-          className="outerbrain-logo fade-in-element"
+          className="outerbrain-logo fade-in-element logo"
           src="https://i.imgur.com/uiACHoF.png"
           alt="Brain Logo"
         />
-      </section>
-      <section>
-        <h1 className="welcome-to-outer-brain">
-          Welcome to Outer Brain Studios
-        </h1>
-      </section>
-      {/* <section Name"titlecard">
-        <h1>GAME PROJECTS</h1>
-      </section> */}
-    </div>
+      </div>
+
+      <h1>Welcome to Outer Brain Studios</h1>
+    </section>
   )
 }
 
