@@ -1,6 +1,8 @@
-WELCOME TO THE OUTER BRAIN OFFICIAL WEBSITE ::
-Landing page for the video game catalogue of Outer Brain Studios. 
 
-+ JavaScript / React / Custom CSS and assets
+OUTER BRAIN (Official Website) ::
+This is the landing page for the video game 
+catalogue of Outer Brain Studios. 
+
++ JavaScript / React / Custom CSS and Assets
 
 Thank you!
