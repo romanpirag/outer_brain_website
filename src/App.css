@@ -282,7 +282,7 @@ section {
 .guilt-anchor {
   display: block;
   position: relative;
-  top: 0;
+  top: -40px;
   visibility: hidden;
 }
 
@@ -290,7 +290,7 @@ section {
   .guilt-anchor {
     display: block;
     position: relative;
-    top: 50px;
+    top: 60px;
     visibility: hidden;
   }
 }
