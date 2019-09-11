@@ -7,7 +7,8 @@ catalogue of Outer Brain Studios.
 
 # OUTER BRAIN (Official Website)
 
-One Paragraph of project description goes here
+This is the landing page for the video game 
+catalogue of Outer Brain Studios. 
 
 ## Getting Started
 
