@@ -11,7 +11,7 @@ catalogue of Outer Brain Studios. Complete with images/videos and music.
 
 • Responsive design using CSS GRID / FLEXBOX. Site works well on mobile devices. 
 
-☝️🤓 A project to learn how to work with outside designers and a small companies deliverables.  
+☝️🤓 A project to learn how to work with an indie team, outside designers and meet deliverables.
 
 
 ## Contact
