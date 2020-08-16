@@ -1,5 +1,5 @@
-import React from "react"
-import "./GuiltPage.css"
+import React from "react";
+import "./GuiltPage.css";
 // import Slideshow from "./Slideshow"
 
 function GuiltPage() {
@@ -15,12 +15,12 @@ function GuiltPage() {
         />
 
         <p className="game-description">
-          GUILT is a multiplayer third-person survival action RPG set in a
-          gritty, dark fantasy world of bone and misery. Players will explore
-          the seemingly endless Trail of Bones, fending off nightmarish
-          threats and encountering other players at random. The game combines
-          meaningful multiplayer interactions with deep roguelike gameplay
-          into a deliciously dark cocktail of adventure, tension and emergent
+          GUILT is this is a multiplayer third-person survival action RPG set in
+          a gritty, dark fantasy world of bone and misery. Players will explore
+          the seemingly endless Trail of Bones, fending off nightmarish threats
+          and encountering other players at random. The game combines meaningful
+          multiplayer interactions with deep roguelike gameplay into a
+          deliciously dark cocktail of adventure, tension and emergent
           storytelling.
         </p>
       </section>
@@ -65,7 +65,7 @@ function GuiltPage() {
           <Slideshow />
         </section> */}
     </>
-  )
+  );
 }
 
-export default GuiltPage
+export default GuiltPage;
