@@ -15,13 +15,7 @@ function GuiltPage() {
         />
 
         <p className="game-description">
-          GUILT is this is a multiplayer third-person survival action RPG set in
-          a gritty, dark fantasy world of bone and misery. Players will explore
-          the seemingly endless Trail of Bones, fending off nightmarish threats
-          and encountering other players at random. The game combines meaningful
-          multiplayer interactions with deep roguelike gameplay into a
-          deliciously dark cocktail of adventure, tension and emergent
-          storytelling.
+          Slash your way through a dark, ever-changing world in this new blend of co-op roguelike and shared-world adventure. Will you beg for forgiveness?
         </p>
       </section>
 
@@ -30,7 +24,7 @@ function GuiltPage() {
           <iframe
             className="trailer"
             title="Guilt Trailer"
-            src="https://www.youtube.com/embed/ncmilTawjU8"
+            src="https://www.youtube.com/embed/tlw18VR22QU"
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
@@ -41,10 +35,7 @@ function GuiltPage() {
           <iframe
             className="itch"
             title="itch"
-            frameBorder="0"
-            src="https://itch.io/embed/415443?border_width=5&amp;bg_color=953445&amp;fg_color=fefefa&amp;link_color=d74439&amp;border_color=000000"
-            width="840"
-            height="175"
+            src="https://store.steampowered.com/widget/1047950/" frameborder="0" width="646" height="190"
           />
 
           <img
