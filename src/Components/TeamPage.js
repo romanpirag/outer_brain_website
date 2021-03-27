@@ -32,7 +32,8 @@ function TeamPage() {
 
           <h5 className="copyright">
             {" "}
-            &copy; Outer Brain all rights reserved 2019
+            ♥ Hosting provided by <a class="foot-link" target="_blank" rel="noopener noreferrer" href="https://pages.github.com/">github</a>
+            &nbsp;&copy; Outer Brain Studios all rights reserved
           </h5>
         </div>
       </section>
