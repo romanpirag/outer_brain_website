@@ -16,15 +16,26 @@ export class TopLinks extends React.Component {
           <a className="link-button" href="#team">
             TEAM
           </a>
+          <a className="link-button" href="/presskit">
+            PRESS KIT
+          </a>
         </div>
         <div className="right-side-links">
           <a
             className="steam-link"
-            href="https://store.steampowered.com/search/?developer=Outer%20Brain%20Studios"
+            href="https://store.steampowered.com/developer/outerbrain"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-steam-square" />
+          </a>
+          <a
+            className="twitter-link"
+            href="https://twitter.com/OuterBrainGames"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-twitter-square" />
           </a>
           <a
             className="facebook-link"

@@ -143,7 +143,7 @@ section {
 
 @media (min-width: 1024px) {
   .game-gif {
-    height: 540px;
+    /* height: 540px; */
     box-shadow: 0px 10px 15px black;
   }
 }
@@ -231,6 +231,13 @@ section {
   color: rgb(110, 135, 154);
 }
 
+.twitter-link {
+  margin: 5px;
+  font-size: 3rem;
+  z-index: 1;
+  color: rgb(110, 135, 154);
+}
+
 .steam-link {
   margin: 5px;
   font-size: 3rem;
@@ -238,6 +245,7 @@ section {
   color: rgb(110, 135, 154);
 }
 
+.twitter-link:hover,
 .facebook-link:hover,
 .steam-link:hover {
   margin: 5px;
