@@ -11,13 +11,13 @@ export class TopLinks extends React.Component {
             GUILT
           </a>
           <a className="link-button" href="#organ">
-            ORGAN QUARTER
+            ORGAN&nbsp;QUARTER
           </a>
           <a className="link-button" href="#team">
             TEAM
           </a>
           <a className="link-button" href="/presskit">
-            PRESS KIT
+            PRESS&nbsp;KIT
           </a>
         </div>
         <div className="right-side-links">
