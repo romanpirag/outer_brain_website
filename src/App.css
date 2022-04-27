@@ -302,6 +302,13 @@ section {
   visibility: hidden;
 }
 
+.roadmap-anchor {
+  display: block;
+  position: relative;
+  top: -75px;
+  visibility: hidden;
+}
+
 @media (min-width: 1024px) {
   .guilt-anchor {
     display: block;

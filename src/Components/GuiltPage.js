@@ -43,6 +43,7 @@ function GuiltPage() {
             src="https://store.steampowered.com/widget/1047950/" frameborder="0" width="646" height="190"
           />
 
+          <div className="roadmap-anchor" id="roadmap" />
           <a className="content-container" href="/assets/EarlyAccessRoadmap.png">
             <img
               className="game-gif"
