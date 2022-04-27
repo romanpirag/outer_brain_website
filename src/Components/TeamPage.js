@@ -16,8 +16,7 @@ function TeamPage() {
           </h4>
 
           <h4 className="team-member">
-            <span className="name-highlight"> Kory Powell </span> - Programmer
-            and designer
+            <span className="name-highlight">Kory Powell</span> - Technomancer
           </h4>
 
           <h4 className="team-member">

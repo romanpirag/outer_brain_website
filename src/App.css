@@ -245,9 +245,17 @@ section {
   color: rgb(110, 135, 154);
 }
 
+.discord-link {
+  margin: 5px;
+  font-size: 3rem;
+  z-index: 1;
+  color: rgb(110, 135, 154);
+}
+
 .twitter-link:hover,
 .facebook-link:hover,
-.steam-link:hover {
+.steam-link:hover,
+.discord-link:hover {
   margin: 5px;
   font-size: 3rem;
   z-index: 1;

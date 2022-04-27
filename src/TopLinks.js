@@ -22,6 +22,14 @@ export class TopLinks extends React.Component {
         </div>
         <div className="right-side-links">
           <a
+            className="discord-link"
+            href="https://discord.outerbrainstudios.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-discord" />
+          </a>
+          <a
             className="steam-link"
             href="https://store.steampowered.com/developer/outerbrain"
             target="_blank"
