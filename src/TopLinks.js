@@ -7,6 +7,9 @@ export class TopLinks extends React.Component {
           <a className="link-button" href="#home">
             HOME
           </a>
+          <a className="link-button" href="#blood">
+            BLOOD
+          </a>
           <a className="link-button" href="#guilt">
             GUILT
           </a>

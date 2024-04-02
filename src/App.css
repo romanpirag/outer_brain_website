@@ -295,6 +295,22 @@ section {
   visibility: hidden;
 }
 
+.blood-anchor {
+  display: block;
+  position: relative;
+  top: -40px;
+  visibility: hidden;
+}
+
+@media (min-width: 1024px) {
+  .blood-anchor {
+    display: block;
+    position: relative;
+    top: 60px;
+    visibility: hidden;
+  }
+}
+
 .guilt-anchor {
   display: block;
   position: relative;
