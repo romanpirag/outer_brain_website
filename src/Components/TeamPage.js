@@ -29,13 +29,9 @@ function TeamPage() {
             designer
           </h4>
 
-          <h4 className="team-member">
-            <span className="name-highlight">Mark Rothberg</span> - Web developer
-          </h4>
-
           <h5 className="copyright">
             {" "}
-            ♥ Hosting provided by <a class="foot-link" target="_blank" rel="noopener noreferrer" href="https://pages.github.com/">github</a>
+            Website maintained by Mark Rothberg ♥ Hosting provided by <a class="foot-link" target="_blank" rel="noopener noreferrer" href="https://pages.github.com/">github</a>
             &nbsp;&copy; Outer Brain Studios all rights reserved
           </h5>
         </div>
