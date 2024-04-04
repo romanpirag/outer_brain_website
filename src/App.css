@@ -143,7 +143,7 @@ section {
 
 @media (min-width: 1024px) {
   .game-gif {
-    height: 540px;
+    /* height: 540px; */
     box-shadow: 0px 10px 15px black;
   }
 }
@@ -231,6 +231,13 @@ section {
   color: rgb(110, 135, 154);
 }
 
+.twitter-link {
+  margin: 5px;
+  font-size: 3rem;
+  z-index: 1;
+  color: rgb(110, 135, 154);
+}
+
 .steam-link {
   margin: 5px;
   font-size: 3rem;
@@ -238,8 +245,17 @@ section {
   color: rgb(110, 135, 154);
 }
 
+.discord-link {
+  margin: 5px;
+  font-size: 3rem;
+  z-index: 1;
+  color: rgb(110, 135, 154);
+}
+
+.twitter-link:hover,
 .facebook-link:hover,
-.steam-link:hover {
+.steam-link:hover,
+.discord-link:hover {
   margin: 5px;
   font-size: 3rem;
   z-index: 1;
@@ -279,10 +295,33 @@ section {
   visibility: hidden;
 }
 
+.blood-anchor {
+  display: block;
+  position: relative;
+  top: -40px;
+  visibility: hidden;
+}
+
+@media (min-width: 1024px) {
+  .blood-anchor {
+    display: block;
+    position: relative;
+    top: 60px;
+    visibility: hidden;
+  }
+}
+
 .guilt-anchor {
   display: block;
   position: relative;
   top: -40px;
+  visibility: hidden;
+}
+
+.roadmap-anchor {
+  display: block;
+  position: relative;
+  top: -75px;
   visibility: hidden;
 }
 

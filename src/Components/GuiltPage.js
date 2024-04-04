@@ -10,18 +10,18 @@ function GuiltPage() {
         <img
           name="GuiltPage"
           className="guilt-logo logo"
-          src="https://i.imgur.com/83EFGB4.png"
+          src="/assets/GuiltLogo.png"
           alt="Guilt Logo"
         />
 
+        <center>
+          <a className="link-button" href="/presskit">
+            PRESS KIT
+          </a>
+        </center>
+
         <p className="game-description">
-          GUILT is this is a multiplayer third-person survival action RPG set in
-          a gritty, dark fantasy world of bone and misery. Players will explore
-          the seemingly endless Trail of Bones, fending off nightmarish threats
-          and encountering other players at random. The game combines meaningful
-          multiplayer interactions with deep roguelike gameplay into a
-          deliciously dark cocktail of adventure, tension and emergent
-          storytelling.
+        Slash your way through dark, ever-changing lands in this new blend of roguelike and shared-world adventure. Create your adventurer and traverse the Trail of Bones: a perilous journey where all players' choices alter the twisted landscape. Will you beg for forgiveness?
         </p>
       </section>
 
@@ -30,7 +30,7 @@ function GuiltPage() {
           <iframe
             className="trailer"
             title="Guilt Trailer"
-            src="https://www.youtube.com/embed/ncmilTawjU8"
+            src="https://www.youtube.com/embed/iwP5YfrhT5I"
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
@@ -39,23 +39,28 @@ function GuiltPage() {
           />
 
           <iframe
-            className="itch"
-            title="itch"
-            frameBorder="0"
-            src="https://itch.io/embed/415443?border_width=5&amp;bg_color=953445&amp;fg_color=fefefa&amp;link_color=d74439&amp;border_color=000000"
-            width="840"
-            height="175"
+            title="steam"
+            src="https://store.steampowered.com/widget/1047950/" frameborder="0" width="646" height="190"
           />
+
+          <div className="roadmap-anchor" id="roadmap" style={{ margin: 0 }}/>
+          <a className="content-container" href="/assets/EarlyAccessRoadmap.png" style={{ marginTop: 0 }}>
+            <img
+              className="game-gif"
+              src="/assets/EarlyAccessRoadmap.png"
+              alt="Guilt Roadmap"
+            />
+          </a>
 
           <img
             className="game-gif"
-            src="https://ksr-ugc.imgix.net/assets/024/978/047/24748a9c5016c4676363fb9c1577cbb6_original.gif?ixlib=rb-2.0.0&w=680&fit=max&v=1556735024&auto=format&gif-q=50&q=92&s=57c7f47f3ba855ad9e9bb03cb77a7f67"
+            src="/assets/Guilt1.gif"
             alt="Guilt Gif"
           />
 
           <img
             className="game-gif"
-            src="https://ksr-ugc.imgix.net/assets/025/000/193/16fc42b3f8455a8b908cbc174fec1cec_original.gif?ixlib=rb-2.0.0&w=680&fit=max&v=1556868056&auto=format&gif-q=50&q=92&s=172729697af9e138bcf0974be6fbcb21"
+            src="/assets/Guilt2.gif"
             alt="Guilt Gif"
           />
         </div>

@@ -16,8 +16,7 @@ function TeamPage() {
           </h4>
 
           <h4 className="team-member">
-            <span className="name-highlight"> Kory Powell </span> - Programmer
-            and designer
+            <span className="name-highlight">Kory Powell</span> - Technomancer
           </h4>
 
           <h4 className="team-member">
@@ -32,7 +31,8 @@ function TeamPage() {
 
           <h5 className="copyright">
             {" "}
-            &copy; Outer Brain all rights reserved 2019
+            Website maintained by Mark Rothberg ♥ Hosting provided by <a class="foot-link" target="_blank" rel="noopener noreferrer" href="https://pages.github.com/">github</a>
+            &nbsp;&copy; Outer Brain Studios all rights reserved
           </h5>
         </div>
       </section>
