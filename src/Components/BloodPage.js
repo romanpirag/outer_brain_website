@@ -10,18 +10,18 @@ function BloodPage() {
         <img
           name="BloodPage"
           className="guilt-logo logo"
-          src="/assets/GuiltLogo.png"
+          src="/assets/BloodTypersLogo.png"
           alt="Guilt Logo"
         />
 
         <center>
-          <a className="link-button" href="/presskit">
+          <a className="link-button" href="https://www.igdb.com/games/blood-typers/presskit">
             PRESS KIT
           </a>
         </center>
 
         <p className="game-description">
-        Slash your way through dark, ever-changing lands in this new blend of roguelike and shared-world adventure. Create your adventurer and traverse the Trail of Bones: a perilous journey where all players' choices alter the twisted landscape. Will you beg for forgiveness?
+        TYPE TO KILL in this survival horror adventure. Alone or with friends, explore a sprawling cursed film studio as its horror movies bleed into reality. Choose from a roster of characters then plan your escape from this bloody homage to old school horror. But remember... death is just a typo away.
         </p>
       </section>
 
@@ -30,7 +30,7 @@ function BloodPage() {
           <iframe
             className="trailer"
             title="Blood Trailer"
-            src="https://www.youtube.com/embed/iwP5YfrhT5I"
+            src="https://www.youtube.com/embed/E23odOnMc-Q?si=AylPg0MLLue-9a2M"
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
@@ -40,18 +40,18 @@ function BloodPage() {
 
           <iframe
             title="steam"
-            src="https://store.steampowered.com/widget/1047950/" frameborder="0" width="646" height="190"
+            src="https://store.steampowered.com/widget/2790330/" frameborder="0" width="646" height="190"
           />
 
           <img
             className="game-gif"
-            src="/assets/Guilt1.gif"
+            src="/assets/BloodTypersGif1.gif"
             alt="Guilt Gif"
           />
 
           <img
             className="game-gif"
-            src="/assets/Guilt2.gif"
+            src="/assets/BloodTypersGif2.gif"
             alt="Guilt Gif"
           />
         </div>
