@@ -1,0 +1,15 @@
+.blood-title {
+  background-image: url("/public/assets/titleBG.png");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+}
+
+
+.blood-content {
+  background-image: url("/public/assets/BloodTypersContentBG.png");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+}
+

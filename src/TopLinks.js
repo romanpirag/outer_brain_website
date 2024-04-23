@@ -7,6 +7,9 @@ export class TopLinks extends React.Component {
           <a className="link-button" href="#home">
             HOME
           </a>
+          <a className="link-button" href="#blood">
+            BLOOD
+          </a>
           <a className="link-button" href="#guilt">
             GUILT
           </a>
@@ -16,9 +19,9 @@ export class TopLinks extends React.Component {
           <a className="link-button" href="#team">
             TEAM
           </a>
-          <a className="link-button" href="/presskit">
+          {/* <a className="link-button" href="/presskit">
             PRESS&nbsp;KIT
-          </a>
+          </a> */}
         </div>
         <div className="right-side-links">
           <a
