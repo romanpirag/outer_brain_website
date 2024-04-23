@@ -36,7 +36,7 @@ function OrganPage() {
             height="480"
           />
 
-          <h2>Organ Quarter OST</h2>
+          <h2 className="organ">Organ Quarter OST</h2>
 
           <iframe
             className="organ-ost"

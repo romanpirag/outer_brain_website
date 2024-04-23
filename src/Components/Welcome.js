@@ -14,7 +14,7 @@ function Welcome() {
         />
       </div>
 
-      <h1>Welcome to Outer Brain Studios</h1>
+      <h1 className="welcome">Welcome to Outer Brain Studios</h1>
     </section>
   )
 }
