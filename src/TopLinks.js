@@ -8,7 +8,7 @@ export class TopLinks extends React.Component {
             HOME
           </a>
           <a className="link-button" href="#blood">
-            BLOOD
+            BLOOD&nbsp;TYPERS
           </a>
           <a className="link-button" href="#guilt">
             GUILT

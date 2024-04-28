@@ -14,6 +14,12 @@ function OrganPage() {
           alt="Organ Logo"
         />
 
+        <center>
+          <a className="link-button" href="https://www.igdb.com/games/organ-quarter/presskit">
+            PRESS KIT
+          </a>
+        </center>
+
         <p className="game-description">
           Organ Quarter is a VR survival horror game built from the ground-up
           for hand-tracked virtual reality. Explore labyrinthine environments,

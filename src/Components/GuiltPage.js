@@ -15,7 +15,7 @@ function GuiltPage() {
         />
 
         <center>
-          <a className="link-button" href="/presskit">
+          <a className="link-button" href="https://www.igdb.com/games/guilt-the-deathless/presskit">
             PRESS KIT
           </a>
         </center>
