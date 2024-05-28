@@ -37,11 +37,12 @@ function BloodPage() {
             width="840"
             height="480"
           />
-
+          
           <iframe
             title="steam"
             src="https://store.steampowered.com/widget/2790330/" frameborder="0" width="646" height="190"
           />
+          
 
           <img
             className="game-gif"
