@@ -41,6 +41,10 @@ function OrganPage() {
             width="840"
             height="480"
           />
+          <iframe 
+            title="steam"
+            src="https://store.steampowered.com/widget/605830/" frameborder="0" width="646" height="190">
+          </iframe>
 
           <h2 className="organ">Organ Quarter OST</h2>
 
@@ -56,17 +60,17 @@ function OrganPage() {
             </a>
           </iframe>
 
-          <img
+          {/* <img
             className="game-gif"
             src="https://ksr-ugc.imgix.net/assets/015/423/410/c9d28b8d63f1611075db151ed186d27a_original.gif?ixlib=rb-2.0.0&w=680&fit=max&v=1486473216&auto=format&gif-q=50&q=92&s=b285f5f18727b867ecb2f3580eab619f"
             alt="Guilt Gif"
-          />
+          /> */}
 
-          <img
+          {/* <img
             className="game-gif"
             src="https://ksr-ugc.imgix.net/assets/015/422/869/9a3ceff377f2d50b3077237f0ff4fa89_original.gif?ixlib=rb-2.0.0&w=680&fit=max&v=1486468879&auto=format&gif-q=50&q=92&s=9161b8ccee13f9271931448edc1d0648"
             alt="Guilt Gif"
-          />
+          /> */}
         </div>
       </section>
 
