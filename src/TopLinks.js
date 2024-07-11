@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 export class TopLinks extends React.Component {
   render() {
     return (
@@ -30,7 +30,7 @@ export class TopLinks extends React.Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <i className="fab fa-discord" />
+            <i class="fab fa-discord"></i>
           </a>
           <a
             className="steam-link"
@@ -56,8 +56,16 @@ export class TopLinks extends React.Component {
           >
             <i className="fab fa-facebook-square" />
           </a>
+          <a
+            className="mail-link"
+            href="mailto:contact@outerbrainstudios.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fas fa-envelope-square"></i>
+          </a>
         </div>
       </>
-    )
+    );
   }
 }
