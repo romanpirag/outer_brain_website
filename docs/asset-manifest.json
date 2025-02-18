@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.7992c091.css",
-    "main.js": "/static/js/main.c3fe03f7.js",
-    "static/media/BloodTypersContentBG.png": "/static/media/BloodTypersContentBG.a3fcd023a73ad74187e5.png",
-    "static/media/titleBG.png": "/static/media/titleBG.1e56fee578848bc3e9f1.png",
+    "main.css": "/static/css/main.17ecda24.chunk.css",
+    "main.js": "/static/js/main.26e31555.chunk.js",
+    "main.js.map": "/static/js/main.26e31555.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.06346f44.chunk.js": "/static/js/2.06346f44.chunk.js",
+    "static/js/2.06346f44.chunk.js.map": "/static/js/2.06346f44.chunk.js.map",
     "index.html": "/index.html",
-    "main.7992c091.css.map": "/static/css/main.7992c091.css.map",
-    "main.c3fe03f7.js.map": "/static/js/main.c3fe03f7.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.7992c091.css",
-    "static/js/main.c3fe03f7.js"
-  ]
+    "precache-manifest.092203361c4d818abd80cd2386f6608c.js": "/precache-manifest.092203361c4d818abd80cd2386f6608c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.17ecda24.chunk.css.map": "/static/css/main.17ecda24.chunk.css.map"
+  }
 }
