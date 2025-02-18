@@ -38,21 +38,11 @@ function GuiltPage() {
             width="840"
             height="480"
           />
-          
+
           <iframe
             title="steam"
             src="https://store.steampowered.com/widget/1047950/" frameborder="0" width="646" height="190"
           />
-          
-
-          <div className="roadmap-anchor" id="roadmap" style={{ margin: 0 }}/>
-          <a className="content-container" href="/assets/EarlyAccessRoadmap.png" style={{ marginTop: 0 }}>
-            <img
-              className="game-gif"
-              src="/assets/EarlyAccessRoadmap.png"
-              alt="Guilt Roadmap"
-            />
-          </a>
 
           <img
             className="game-gif"

@@ -15,7 +15,7 @@ function BloodPage() {
         />
 
         <center>
-          <a className="link-button" href="https://www.igdb.com/games/blood-typers/presskit">
+          <a className="link-button" href="https://drive.google.com/drive/u/2/folders/1z0LFidBBEE-LOE6XGZyEP9MMMOd3f7FB">
             PRESS KIT
           </a>
         </center>
@@ -30,19 +30,19 @@ function BloodPage() {
           <iframe
             className="trailer"
             title="Blood Trailer"
-            src="https://www.youtube.com/embed/E23odOnMc-Q?si=AylPg0MLLue-9a2M"
+            src="https://www.youtube.com/embed/4xlH_SAKQMc?si=a5ybZ4N_67WyBqJx"
             frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowFullScreen
             width="840"
             height="480"
           />
-          
+
           <iframe
             title="steam"
             src="https://store.steampowered.com/widget/2790330/" frameborder="0" width="646" height="190"
           />
-          
+
 
           <img
             className="game-gif"
